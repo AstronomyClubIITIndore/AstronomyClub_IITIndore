@@ -1,3 +1,3 @@
 # AstronomyClub_IITIndore
-This is official website of AstronomyClub IIT Indore
-Dikshit Bhosdike 
+This is the Official Website of Astronomy Club IIT Indore
+ 
