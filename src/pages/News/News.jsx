@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function News() {
   return (
-    <div>
-      <h1>hey this is News</h1>
-    </div>
-  )
+    <>
+      <div>
+        <h1>hey this is News</h1>
+      </div>
+    </>
+  );
 }
 
-export default News
+export default News;
