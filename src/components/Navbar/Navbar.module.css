@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+/* Astronomy clubname and logo design  */
+.clubname {
+  background-image: url("../../assets/NavBackground.png");
+ 
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+
+/* navbar design and responsiveness */
+.navbar {
+  margin: 0;
+  width: 100% ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+
+  overflow: hidden;
+  background-color: #61709a;
+}
+ .nonresponsive {
+  display: flex;
+  justify-content: space-around;
+}
+.topnav a {
+  font-size: large;
+  font-weight: bold;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  color: rgb(40, 7, 58);
+  scale: 1.2;
+  transition-duration: 0.3s;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+ /* responsive design */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display:  block;
+    text-align: left;
+  }
+}
+
+
+
+
