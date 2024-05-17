@@ -4,6 +4,7 @@ import Astronomylogo from "../../assets/Astronomylogo.png";
 import iitilogo from "../../assets/iitilogo.png";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Link } from "react-router-dom";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [isResponsive, setIsResponsive] = useState(false);
@@ -65,14 +66,50 @@ function Navbar() {
           }`}
           id="myTopnav"
         >
-          <Link to="/" >Home</Link>
-          <Link to="/aboutus" >About us</Link>
-          <Link to="/projects" >Projects</Link>
-          <Link to="/news" >News</Link>
-          <Link to="/activities" >Activities</Link>
-          <Link to="/team" >Team</Link>
-         
-          
+          <Link to="/">
+            <i
+              className="fa-solid fa-house"
+              style={{ marginRight: "0.5rem" }}
+            ></i>
+            Home
+          </Link>
+          <Link to="/aboutus">
+            <i
+              className="fa-solid fa-circle-info"
+              style={{ marginRight: "0.5rem" }}
+            ></i>
+            About us
+          </Link>
+          <Link to="/projects">
+            <i
+              className="fa-solid fa-hammer"
+              style={{ marginRight: "0.5rem" }}
+            ></i>
+            Projects
+          </Link>
+          <Link to="/news">
+            <i
+              className="fa-solid fa-newspaper"
+              style={{ marginRight: "0.5rem" }}
+            ></i>
+            News
+          </Link>
+          <Link to="/activities">
+            <i
+              className="fa-solid fa-globe"
+              style={{ marginRight: "0.5rem" }}
+            ></i>
+            Activities
+          </Link>
+          <Link to="/team">
+            {" "}
+            <i
+              className="fa-solid fa-people-group"
+              style={{ marginRight: "0.5rem" }}
+            ></i>
+            Team
+          </Link>
+
           <a
             href="javascript:void(0);"
             className={styles.icon}
