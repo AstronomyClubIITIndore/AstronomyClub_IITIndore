@@ -1,13 +1,17 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
+import '../../styles/projects.css'
 
 function Projects() {
   return (
     <>
-    <Navbar></Navbar>
-    <div>
-      <h1>hey this is Projects</h1>
-    </div></>
+    
+      <div className="Projects-encloser1">
+      <Navbar/>
+      <div className="Projects-encloser2"> <div className="Projects-heading">Projects and Innovations</div></div>
+       
+      </div>
+    </>
   )
 }
 

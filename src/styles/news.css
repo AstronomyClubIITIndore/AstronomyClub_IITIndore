@@ -1,0 +1,36 @@
+body
+{
+    /* background: linear-gradient(to right,rgb(2, 2, 29),black 60%); */
+}
+.News-encloser1
+{
+    width: 100vw;
+    height: 30vw;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1");
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(rgb(2, 21, 48) ,rgb(0, 0, 0));
+}
+.News-heading
+{
+    color: white;
+    /* border: 2px solid white; */
+    font-size: 480%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background: linear-gradient(to right,black 50%,blue); */
+    text-align: center;
+    
+}
+.News-encloser2
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(192, 17, 17); */
+    box-sizing: border-box;
+}

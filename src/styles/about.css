@@ -1,0 +1,91 @@
+body
+{
+    /* background: linear-gradient(to right,rgb(2, 2, 29),black 60%); */
+}
+.encloser1
+{
+    width: 100vw;
+    height: 30vw;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1");
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(rgb(2, 21, 48) ,rgb(0, 0, 0));
+}
+.heading
+{
+    color: white;
+    /* border: 2px solid white; */
+    font-size: 480%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background: linear-gradient(to right,black 50%,blue); */
+    text-align: center;
+    
+}
+.encloser2
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(192, 17, 17); */
+    box-sizing: border-box;
+}
+
+#header1
+{
+    font-size: 180%;
+background: radial-gradient(rgb(11, 51, 74),rgb(1, 14, 28));
+color: white;
+display: flex;
+justify-content: center;
+}
+.vision
+{
+    margin-top: 1%;
+}
+#body1
+{
+    background: radial-gradient(rgb(16, 76, 101) ,rgb(0, 0, 0));
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+.message
+{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid black; */
+    /* margin-top: 10px; */
+    display: flex;
+}
+.photo
+{
+width: 20%;
+height: 100%;
+border: 1px solid green;
+}
+.content
+{
+width: 80%;
+height: 100%;
+background: radial-gradient(rgb(16, 76, 101) ,rgb(0, 0, 0));
+color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 120%;
+padding-left: 1%;
+}
+.image1
+{
+    width: 100%;
+    height: 100%;
+    filter:brightness(60%);
+}
+.messagetitle
+{
+    background-color: aquamarine;
+    /* border: 2px solid black; */
+}

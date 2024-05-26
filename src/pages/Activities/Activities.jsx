@@ -1,13 +1,17 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
+import '../../styles/activities.css'
 
 function Activities() {
   return (
     <>
-    <Navbar></Navbar>
-    <div>
-      <h1>hey this is Activities</h1>
-    </div></>
+    
+      <div className="Activities-encloser1">
+      <Navbar/>
+      <div className="Activities-encloser2"> <div className="Activities-heading">Activities and Endeavors...</div></div>
+       
+      </div>
+    </>
   )
 }
 

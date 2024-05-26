@@ -38,9 +38,11 @@ function Navbar() {
               fontWeight: "bold",
               color: "white",
               textDecoration: "none",
+              fontFamily:"Trebuchet MS",
+              scale:"1.4"
             }}
           >
-            Astronomy Club - IIT Indore
+            The Astronomy Club IIT Indore
           </a>
         </div>
         <div>
@@ -53,6 +55,9 @@ function Navbar() {
                 width: "65px",
                 height: "50px",
                 backgroundColor: "transparent",
+                borderRadius:"50%",
+                scale:"1.2"
+              
               }}
             />
           </a>
@@ -71,35 +76,35 @@ function Navbar() {
               className="fa-solid fa-house"
               style={{ marginRight: "0.5rem" }}
             ></i>
-            Home
+            HOME
           </Link>
           <Link to="/aboutus">
             <i
               className="fa-solid fa-circle-info"
               style={{ marginRight: "0.5rem" }}
             ></i>
-            About us
+            ABOUT US
           </Link>
           <Link to="/projects">
             <i
               className="fa-solid fa-hammer"
               style={{ marginRight: "0.5rem" }}
             ></i>
-            Projects
+            PROJECTS
           </Link>
           <Link to="/news">
             <i
               className="fa-solid fa-newspaper"
               style={{ marginRight: "0.5rem" }}
             ></i>
-            News
+            NEWS
           </Link>
           <Link to="/activities">
             <i
               className="fa-solid fa-globe"
               style={{ marginRight: "0.5rem" }}
             ></i>
-            Activities
+            ACTIVITIES
           </Link>
           <Link to="/team">
             {" "}
@@ -107,7 +112,7 @@ function Navbar() {
               className="fa-solid fa-people-group"
               style={{ marginRight: "0.5rem" }}
             ></i>
-            Team
+            TEAM
           </Link>
 
           <a

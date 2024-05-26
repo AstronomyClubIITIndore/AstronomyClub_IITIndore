@@ -1,14 +1,17 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
+import '../../styles/team.css'
 
 function Team() {
   return (
-   <>
-   <Navbar></Navbar>
-   <div>
-      <h1>hey this is Team</h1>
+    <>
+    
+    <div className="Team-encloser1">
+    <Navbar/>
+    <div className="Team-encloser2"> <div className="Team-heading">The Team Members...</div></div>
+     
     </div>
-    </> 
+  </>
   )
 }
 
