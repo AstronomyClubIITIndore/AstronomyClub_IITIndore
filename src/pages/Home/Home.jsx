@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import Hero from "../../components/Hero/Hero";
 import '../../styles/home.css'
 import Footer from "../../components/Footer/Footer";
 // import 'bootstrap/dist/css/bootstrap.min.css'
