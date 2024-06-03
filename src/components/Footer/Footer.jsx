@@ -4,6 +4,7 @@ import '../../styles/footer.css'
 export default function Footer() {
   return (
     <>
+    
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <footer className="footer-distributed">
 
@@ -45,11 +46,10 @@ export default function Footer() {
                 <strong>The Astronomy Club</strong> at IIT Indore is a dynamic community passionate about exploring the cosmos. Established to nurture interest in astronomy and space science, the club offers a platform for both beginners and enthusiasts to engage with celestial phenomena
             </p>
             <div className="footer-icons">
-                <a href="#"><i className="fab fa-facebook-f"></i></a>
-                <a href="#"><i className="fab fa-instagram"></i></a>
-                <a href="#"> <i className="fab fa-linkedin-in"></i></a>
-                <a href="#"><i className="fab fa-twitter"></i></a>
-                <a href="#"><i className="fab fa-youtube"></i></a>
+                {/* <a href="https://www.linkedin.com/company/the-astronomy-club-iit-indore/mycompany/" target='_blank'><i className="fab fa-facebook-f"></i></a> */}
+                <a href="https://www.instagram.com/astronomyclub_iiti/" target='_blank'><i className="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/the-astronomy-club-iit-indore/mycompany/" target='_blank'> <i className="fab fa-linkedin-in"></i></a>
+               
             </div>
         </div>
     </footer>
