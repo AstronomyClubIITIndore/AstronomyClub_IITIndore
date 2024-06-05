@@ -9,11 +9,8 @@ function Projects() {
     <>
       <div className="Projects-encloser1">
         <Navbar />
-        <div className="Projects-encloser2">
-          {" "}
-          <div className="Projects-heading">Projects and Innovations</div>
-        </div>
       </div>
+      <center id="heading">Projects</center>
       <PCard></PCard>
       <PCard></PCard>
       <PCard></PCard>
