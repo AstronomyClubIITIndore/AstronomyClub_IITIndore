@@ -10,7 +10,7 @@ function Projects() {
       <div className="Projects-encloser1">
         <Navbar />
       </div>
-      <center id="heading">Projects</center>
+      <center id="headingproject">Projects</center>
       <PCard></PCard>
       <PCard></PCard>
       <PCard></PCard>
