@@ -31,12 +31,12 @@
 	background: #c3dbf2;
 }
 .TeamName{
-  font-family: "Kanit", sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   font-size: 6vh;
 font-variant: normal;
   font-style: normal;
-  color: rgb(32 230 225);
+  color: rgb(164, 253, 0);
 }
 
 .mailId{

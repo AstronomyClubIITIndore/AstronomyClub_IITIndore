@@ -8,9 +8,11 @@ function Projects() {
   return (
     <>
       <div className="Projects-encloser1">
+        
         <Navbar />
+        <div className="Projects-encloser2"> <div className="Projects-heading">Our Projects</div></div>
       </div>
-      <center id="headingproject">Projects</center>
+      
       <PCard></PCard>
       <PCard></PCard>
       <PCard></PCard>

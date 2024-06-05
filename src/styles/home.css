@@ -15,16 +15,24 @@ body
     align-items: center;
     background: radial-gradient(rgb(2, 21, 48) ,rgb(0, 0, 0));
     /* position: relative; */
+    padding-bottom: 9%;
 }
 .Home-heading
 {
     color: white;
     /* border: 2px solid white; */
-    font-size: 480%;
+    font-size: 80px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background: linear-gradient(to right,black 50%,blue); */
     text-align: center;
     
+}
+@media only screen and (max-width:1200px)
+{
+    .Home-heading
+    {
+        font-size: max(5vw,30px);
+    }
 }
 .Home-encloser2
 {

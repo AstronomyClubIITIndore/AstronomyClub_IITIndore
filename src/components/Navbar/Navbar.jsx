@@ -30,7 +30,7 @@ function Navbar() {
             />
           </a>
         </div>
-        <div style={{ margin: "1vh 2vw" }}>
+        <div style={{ margin: "1vh 2vw",textAlign:"center" }}>
           <a
             href="/"
             style={{
@@ -39,7 +39,8 @@ function Navbar() {
               color: "white",
               textDecoration: "none",
               fontFamily:"Trebuchet MS",
-              scale:"1.4"
+              scale:"1.4",
+              
             }}
           >
             The Astronomy Club IIT Indore
