@@ -48,12 +48,12 @@ function Hero() {
 
   return (
     <>
-      <div className="text-white border-red-700 border-0 font-serif flex bg-black overflow-x-hidden " >
+      <div className="text-white border-red-700 border-0 font-serif flex  overflow-x-hidden " style={{background:"radial-gradient(rgb(2, 21, 48) 1%, rgb(0, 0, 0))"}} >
         {/* outermost flex-item-1 */}
         <div className={`border-0 border-green-600 sm:w-[50%] w-[100%]`}>
           <motion.div id="heading" className="text-7xl my-[5vh] mx-[5vh] mb-[3vh]" 
           variants={smaller_top} animate={control} initial="hidden" whileInView="visible" style={{fontFamily:"Trebuchet MS"}}>
-            Astronomy Club
+            Welcome to The<span style={{color:"rgb(164, 253, 0)"}}> Astronomy Club</span>
             <div className="lg:block my-2 py-2 hidden font-bold text-5xl bg-gradient-to-r from-slate-600 via-black-500 to-indigo-400 text-transparent bg-clip-text"
             >
               <Typewriter

@@ -1,6 +1,6 @@
 body
 {
-    background:radial-gradient(rgb(2, 26, 53) 0%,black 90%)
+    background:radial-gradient(rgb(2, 21, 48) 0%, rgb(0, 0, 0));
     /* background:linear-gradient(to bottom,rgb(0, 6, 32),rgb(1, 1, 40)); */
 }
 .Team-encloser1
