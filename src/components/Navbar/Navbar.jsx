@@ -34,7 +34,7 @@ function Navbar() {
           <a
             href="/"
             style={{
-              fontSize: "8vh",
+              fontSize: "min(8vw,60px)",
               // fontWeight: "bold",
               color: "white",
               textDecoration: "none",
