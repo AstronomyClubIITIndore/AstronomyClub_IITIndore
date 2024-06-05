@@ -1,0 +1,125 @@
+/*people card css*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+
+.container-fluid {
+	display: flex;
+  justify-content: center;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+	/* justify-content: center; */
+}
+ .icons{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    color: #4979a5;
+ }
+ .icons :hover{
+  color: #1459e3;
+ }
+.personCard {
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	width: 440px;
+	overflow: hidden;
+	border-radius: 10px;
+	border: 2px solid rgb(177, 172, 172);
+	padding: 0px !important;
+	height: 200px;
+	background: #c3dbf2;
+}
+.TeamName{
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  font-size: 6vh;
+font-variant: normal;
+  font-style: normal;
+  color: rgb(32 230 225);
+}
+
+.mailId{
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.mailId:hover{
+  color: #1459e3;
+}
+.pdp {
+	min-width: 160px;
+	max-width: 160px;
+}
+
+.personCardBody {
+	padding-left: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.personCard a {
+	color: black;
+}
+
+.personCard p {
+	margin-bottom: 0.3rem;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.socIcon {
+	font-size: 1.3rem;
+	margin-right: 5px;
+}
+
+.btn {
+	margin: 5px;
+}
+
+.commBtns {
+	margin: auto;
+	width: max(60%, 400px);
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+.container-fluid{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+	.pdp {
+		height: 180px;
+		width: 150px;
+	}
+	.personCard {
+		margin: 15px -20px;
+		flex-direction: row;
+		height: 180px;
+		width: 90vw;
+		border: 1px solid rgb(109, 107, 107);
+	}
+	.personCardBody {
+		padding: 0;
+		padding-left: 10px;
+		overflow: auto;
+	}
+	.personCard h4 {
+		font-size: 1.3rem;
+	}
+	.personCard h5 {
+		font-size: 1.1rem;
+	}
+}
+
+.selectComm {
+	width: min(80vw, 300px);
+	margin: auto;
+}

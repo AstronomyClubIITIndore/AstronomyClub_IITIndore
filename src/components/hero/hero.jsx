@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useRef } from "react";
-// import heroImg from "../../assets/hero/Astronomylogo.png";
 import li from "../../assets/hero/li.png";
 import insta from "../../assets/hero/insta.png";
-// import confetti from 'canvas-confetti';
-import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './hero.css'; 
 import { motion, useAnimation } from "framer-motion";
@@ -13,37 +10,14 @@ import { useTypewriter, Cursor, Typewriter } from "react-simple-typewriter";
 import Carousel from 'react-bootstrap/Carousel';
 import astrotalk from '../../assets/hero/astrotalk.jpg';
 import astrotalk1 from '../../assets/hero/astrotalk1.jpg';
-import hundredhrs from '../../assets/hero/hundredhrs.jpg';
-// import ExampleCarouselImage from '../../assets/hero/ExampleCarouselImage.jpg';
-
-// import '../../index.css'; 
+import hundredhrs from '../../assets/hero/hundredhrs.jpg'; 
 
 function Hero() {
 
   const gmailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=cfa@iiti.ac.in&su=Requestto%20Collaborate%20with%20CFA%20Club%2CIIT%20Indore&body=Hi!%20I%20want%20to%20collaborate%20with%20CFA.%0D%0A%0D%0A(This%20mail%20was%20auto-generated)";
 
   const linkRef = useRef(null);
-  // const [toast,setToast] = useState(false);
-
-
-  // const handleOnClick = (event) => {
-  //   event.preventDefault(); // Prevent the default link click
-  //   confetti({
-  //     particleCount: 100,
-  //     spread: 50,
-  //     origin: { x:0.9, y:1 }
-  //   });
-
-  //   toast.success("Thank you for contacting us!", {
-  //     position: "bottom-right",
-  //     autoClose: 1000,
-  //   });
-
-  //   setTimeout(() => {
-  //     linkRef.current.click(); 
-  //   }, 1500);
-
-  // };
+ 
 
   const left ={
     hidden :{x:-500,opacity:0, },
@@ -74,7 +48,7 @@ function Hero() {
 
   return (
     <>
-      <div className="text-white border-red-700 border-0 font-serif flex bg-black overflow-x-hidden" >
+      <div className="text-white border-red-700 border-0 font-serif flex bg-black overflow-x-hidden " >
         {/* outermost flex-item-1 */}
         <div className={`border-0 border-green-600 sm:w-[50%] w-[100%]`}>
           <motion.div id="heading" className="text-7xl my-[5vh] mx-[5vh] mb-[3vh]" 
