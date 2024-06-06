@@ -132,16 +132,19 @@ header span {
     margin: 0;
 }
 
-.footer-distributed .footer-center p span {
+.footer-distributed .footer-center p span a{
     display: block;
-    font-weight: normal;
-    
-    font-size: 14px;
+    font-weight: bolder;
+    font-size: 18px;
     line-height: 2;
 }
 
 .footer-distributed .footer-center p a {
     color: #ffffff;
+    text-decoration: none;
+}
+.footer-distributed .footer-center p a:hover {
+    color: rgb(164, 253, 0);
     text-decoration: none;
 }
 
@@ -187,7 +190,7 @@ header span {
 }
 
 .footer-distributed .footer-icons a:hover {
-    background-color: #e6cc03;
+    color:  rgb(164, 253, 0);
 }
 
 .footer-links a:hover {
