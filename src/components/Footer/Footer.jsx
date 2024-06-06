@@ -53,6 +53,7 @@ export default function Footer() {
             </div>
         </div>
     </footer>
+    <center className='text-white bg-slate-800 font-semibold text-lg p-3'>&copy; Astronomy Club - IIT Indore @2024 . All Rights Reserved</center>
     </>
   )
 }
