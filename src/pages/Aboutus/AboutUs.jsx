@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import  '../../styles/about.css'
 import Footer from "../../components/Footer/Footer";
-
+import { keshav } from "../../assets/team";
 
 function AboutUs() {
   return (
@@ -52,7 +52,7 @@ function AboutUs() {
       </div>
        <div className="message">
         
-        <div className="photo"><img className="image1" src="https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716681600&semt=sph"  alt="..."/></div>
+        <div className="photo"><img className="image1" src={keshav}  alt="..."/></div>
         <div className="content">Welcome to the Astronomy Club of IIT Indore! <br />
 
 At the Astronomy Club, we are driven by an unending curiosity about the universe and a passion for exploring the cosmos. Our mission is to provide a platform for students, faculty, and astronomy enthusiasts to come together and share their love for the night sky, unravel the mysteries of space, and delve into the wonders of the universe.
