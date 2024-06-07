@@ -6,6 +6,7 @@ import {
   Ayushkhadkekar,
   Atharvaporwal,
   Abhishekap,
+  Vandannagori,
 } from "../../assets/team";  
 
 
@@ -44,6 +45,12 @@ function Webdev() {
           email: "mems220005001@iiti.ac.in",
           name: "Abhishek AP",
           img: Abhishekap,
+          designation: "Member",
+        },
+        {
+          email: "vandan nagori.ac.in",
+          name: "Vandan Nagori",
+          img: Vandannagori,
           designation: "Member",
         },
       ],
