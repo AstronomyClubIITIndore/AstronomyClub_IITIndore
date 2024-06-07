@@ -1,12 +1,12 @@
-body {
-  /* background: linear-gradient(to right,rgb(2, 2, 29),black 60%); */
-}
+/* body { */
+/* background: linear-gradient(to right,rgb(2, 2, 29),black 60%); */
+/* } */
 .Projects-encloser1 {
   width: 100vw;
-  height: 30vw;
+  /* height: 30vw; */
   /* border: 2px solid black; */
   box-sizing: border-box;
-  background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1");
+  /* background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1"); */
   /* display: flex; */
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ body {
   /* display: flex; */
   /* align-items: center; */
   margin-top: 20px;
-  background: radial-gradient(rgb(2, 21, 48), rgb(0, 0, 0));
+  background: radial-gradient(rgb(2, 21, 48), #5a72a0);
   color: white;
   padding: 20px;
   border-radius: 10px;
@@ -48,6 +48,9 @@ body {
   height: auto;
   /* margin-right: 30px; */
 }
+/* .Info {
+  width: 250%;
+} */
 .Info h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -87,13 +90,14 @@ body {
     display: flex;
     /* align-items: center; */
     margin-top: 20px;
-    background: radial-gradient(rgb(2, 21, 48), rgb(0, 0, 0));
+    background: radial-gradient(rgb(2, 21, 48), #1a2130);
     color: white;
     padding: 20px;
     border-radius: 10px;
   }
 
   .Photo {
+    width: 100%;
     margin-right: 30px;
   }
 }
@@ -104,16 +108,16 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    background: radial-gradient(rgb(2, 21, 48), rgb(0, 0, 0));
+    background: radial-gradient(rgb(2, 21, 48), #1a2130);
     color: white;
     padding: 20px;
     border-radius: 10px;
   }
 
   .Photo {
-    background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1");
+    /* background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1"); */
     background-size: cover;
-    width: 50%;
+    width: 70%;
     height: 200px;
     /* margin-right: 30px; */
     margin-bottom: 20px;
