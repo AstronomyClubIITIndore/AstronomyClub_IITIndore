@@ -5,7 +5,7 @@ body
 .News-encloser1
 {
     width: 100vw;
-    height: 30vw;
+    height: auto;
     /* border: 2px solid black; */
     box-sizing: border-box;
     background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1");
@@ -13,16 +13,27 @@ body
     justify-content: center;
     align-items: center;
     background: radial-gradient(rgb(2, 21, 48) ,rgb(0, 0, 0));
+    padding-bottom: 9%;
 }
 .News-heading
 {
     color: white;
     /* border: 2px solid white; */
-    font-size: 480%;
+    font-size: 80px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background: linear-gradient(to right,black 50%,blue); */
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+@media only screen and (max-width:1200px)
+{
+    .News-heading
+    {
+        font-size: max(5vw,30px);
+    }
 }
 .News-encloser2
 {
@@ -33,4 +44,18 @@ body
     align-items: center;
     /* border: 2px solid rgb(192, 17, 17); */
     box-sizing: border-box;
+}
+.card
+{
+    animation: glow 2s infinite alternate;
+}
+@keyframes glow {
+    0% {
+        /* opacity: 1; */
+        box-shadow: 0 0 5px rgba(0, 255, 255, 0.7), 0 0 5px rgba(0, 255, 255, 0.7), 0 0 5px rgba(0, 255, 255, 0.7), 0 0 5px rgba(0, 255, 255, 0.7);
+    }
+    100% {
+        /* opacity: 0.5; */
+        box-shadow: 0 0 10px rgba(0, 89, 255, 0.7), 0 0 10px rgba(8, 0, 255, 0.7), 0 0 10px rgba(0, 4, 255, 0.7), 0 0 10px rgba(0, 8, 255, 0.7);
+    }
 }

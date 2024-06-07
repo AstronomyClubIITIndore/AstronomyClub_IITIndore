@@ -6,6 +6,7 @@ import {
   Ayushkhadkekar,
   Atharvaporwal,
   Abhishekap,
+  Vandannagori,
 } from "../../assets/team";  
 
 
@@ -19,7 +20,7 @@ function Webdev() {
       [
         {
           email: "mems220005019@iiti.ac.in",
-          name: "Dikshit suthar",
+          name: "Dikshit Suthar",
           img: Dikshitsuthar,
           designation: "WebDev team Lead",
           ig: "https://www.instagram.com/dikshit_suthar_57/",
@@ -29,13 +30,13 @@ function Webdev() {
       
         {
           email: "ee220002022@iiti.ac.in",
-          name: "Ayush khadkekar",
+          name: "Ayush Khadkekar",
           img: Ayushkhadkekar,
           designation: "Member",
         },
         {
           email: "mems220005015@iiti.ac.in",
-          name: "Atharva porwal",
+          name: "Atharva Porwal",
           img: Atharvaporwal,
           designation: "Member",
         },
@@ -44,6 +45,12 @@ function Webdev() {
           email: "mems220005001@iiti.ac.in",
           name: "Abhishek AP",
           img: Abhishekap,
+          designation: "Member",
+        },
+        {
+          email: "vandan nagori.ac.in",
+          name: "Vandan Nagori",
+          img: Vandannagori,
           designation: "Member",
         },
       ],

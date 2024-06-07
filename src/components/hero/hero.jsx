@@ -14,8 +14,6 @@ import hundredhrs from '../../assets/hero/hundredhrs.jpg';
 
 function Hero() {
 
-  const gmailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=cfa@iiti.ac.in&su=Requestto%20Collaborate%20with%20CFA%20Club%2CIIT%20Indore&body=Hi!%20I%20want%20to%20collaborate%20with%20CFA.%0D%0A%0D%0A(This%20mail%20was%20auto-generated)";
-
   const linkRef = useRef(null);
  
 
@@ -48,12 +46,12 @@ function Hero() {
 
   return (
     <>
-      <div className="text-white border-red-700 border-0 font-serif flex bg-black overflow-x-hidden " >
+      <div className="text-white border-red-700 border-0 font-serif flex  overflow-x-hidden " style={{background:"radial-gradient(rgb(2, 21, 48) 1%, rgb(0, 0, 0))"}} >
         {/* outermost flex-item-1 */}
         <div className={`border-0 border-green-600 sm:w-[50%] w-[100%]`}>
           <motion.div id="heading" className="text-7xl my-[5vh] mx-[5vh] mb-[3vh]" 
-          variants={smaller_top} animate={control} initial="hidden" whileInView="visible">
-            Astronomy Club
+          variants={smaller_top} animate={control} initial="hidden" whileInView="visible" style={{fontFamily:"Trebuchet MS"}}>
+            Welcome to The<span style={{color:"rgb(164, 253, 0)"}}> Astronomy Club</span>
             <div className="lg:block my-2 py-2 hidden font-bold text-5xl bg-gradient-to-r from-slate-600 via-black-500 to-indigo-400 text-transparent bg-clip-text"
             >
               <Typewriter
@@ -70,13 +68,17 @@ function Hero() {
            
           </motion.div>
           <motion.div className=" w-[70%] text-xl mx-[5vh]"
-          variants={smaller_top} animate={control} initial="hidden" whileInView="visible">
+          variants={smaller_top} animate={control} initial="hidden" whileInView="visible" style={{
+            fontFamily:"Trebuchet MS"
+          }}>
             The Astronomy Club at IIT Indore fosters a passion for the cosmos through stargazing sessions, workshops, and educational talks. We provide a platform for students to explore celestial phenomena, engage in astrophotography, and collaborate on research projects, promoting a deeper understanding of the universe and its wonders.
           </motion.div>
           
           
           <motion.div className=" text-xl font-bold mx-[5vh] my-[5vh]" 
-           variants={screen.width>=1000?left:right} animate={control} initial="hidden" whileInView="visible">
+           variants={screen.width>=1000?left:right} animate={control} initial="hidden" whileInView="visible" style={{
+            fontFamily:"Trebuchet MS"
+          }}>
             FOLLOW US
             <div className="flex gap-3 my-4">
               <a
@@ -101,7 +103,7 @@ function Hero() {
         {<div className="sm:w-[50%] w-[100%] md:w-[50%] m-5 h-100 rounded-md  shadow-slate-50 border-2">
           {/* <img width={"90%"} src={heroImg} className=""  style={{height : '60vh' , margin : '5vh'}}/> */}
         
-         <Carousel fade>
+         <Carousel fade className="borderglow">
     <Carousel.Item>
       <img
         className="d-block w-100"

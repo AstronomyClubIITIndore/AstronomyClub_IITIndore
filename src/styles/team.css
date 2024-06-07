@@ -1,6 +1,7 @@
 body
 {
-    background: linear-gradient(to right,rgb(76, 76, 94),rgb(66, 81, 94) 60%);
+    background:radial-gradient(rgb(2, 21, 48) 0%, rgb(0, 0, 0));
+    /* background:linear-gradient(to bottom,rgb(0, 6, 32),rgb(1, 1, 40)); */
 }
 .Team-encloser1
 {
@@ -13,16 +14,24 @@ body
     justify-content: center;
     align-items: center;
     background: radial-gradient(rgb(2, 21, 48) ,rgb(0, 0, 0));
+    padding-bottom: 9%;
 }
 .Team-heading
 {
     color: white;
     /* border: 2px solid white; */
-    font-size: 480%;
+    font-size: 80px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background: linear-gradient(to right,black 50%,blue); */
     text-align: center;
     
+}
+@media only screen and (max-width:1200px)
+{
+    .Team-heading
+    {
+        font-size: max(5vw,30px);
+    }
 }
 .Team-encloser2
 {

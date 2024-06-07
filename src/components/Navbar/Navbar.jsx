@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import Astronomylogo from "../../assets/Astronomylogo.png";
-import iitilogo from "../../assets/iitilogo.png";
+import Astronomylogo from "../../assets/hero/newlogo.png";
+import iitilogo from "../../assets/hero/iitindorelogo-removebg-preview.png";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Link } from "react-router-dom";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
@@ -23,23 +23,24 @@ function Navbar() {
               alt=""
               style={{
                 margin: "1vh 2vw",
-                width: "65px",
-                height: "50px",
+                
+                height: "14vh",
                 backgroundColor: "transparent",
               }}
             />
           </a>
         </div>
-        <div style={{ margin: "1vh 2vw" }}>
+        <div style={{ margin: "1vh 2vw",textAlign:"center" }}>
           <a
             href="/"
             style={{
-              fontSize: "6vh",
-              fontWeight: "bold",
+              fontSize: "min(8vw,60px)",
+              // fontWeight: "bold",
               color: "white",
               textDecoration: "none",
               fontFamily:"Trebuchet MS",
-              scale:"1.4"
+             
+              
             }}
           >
             The Astronomy Club IIT Indore
@@ -52,11 +53,11 @@ function Navbar() {
               alt=""
               style={{
                 margin: "1vh 2vw",
-                width: "65px",
-                height: "50px",
+                // width: "65px",
+                height: "12vh",
                 backgroundColor: "transparent",
-                borderRadius:"50%",
-                scale:"1.2"
+                // borderRadius:"50%",
+                
               
               }}
             />
