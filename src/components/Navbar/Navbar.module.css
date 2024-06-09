@@ -12,7 +12,6 @@
 /* Astronomy clubname and logo design  */
 .clubname {
   background: transparent;
- 
   text-decoration: none;
   display: flex;
   justify-content: space-around;
@@ -33,13 +32,18 @@
 }
 
 .topnav {
-
+  /* position: sticky;
+  top: 0px;
+  z-index: 1000; */
   overflow: hidden;
   /* background-color: #61709a; */
   background: transparent;
   
 }
  .nonresponsive {
+  /* position: sticky;
+  top: 0px;
+  z-index: 1000; */
   display: flex;
   justify-content: space-around;
 }

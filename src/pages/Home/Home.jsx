@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
     
-      <div className="Home-encloser1">
+      <div className="Home-encloser1 ">  
       <Navbar/>
       {/* <div className="Home-encloser2"> <div className="Home-heading">Welcome to the Astronomy Club...</div></div> */}
       </div>

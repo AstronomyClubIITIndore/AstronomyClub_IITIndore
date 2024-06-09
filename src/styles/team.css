@@ -5,8 +5,8 @@ body
 }
 .Team-encloser1
 {
-    width: 100vw;
-    height: 50vh;
+    width: auto;
+    height: auto;
     /* border: 2px solid black; */
     box-sizing: border-box;
     background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1");
@@ -14,12 +14,20 @@ body
     justify-content: center;
     align-items: center;
     background: radial-gradient(rgb(2, 21, 48) ,rgb(0, 0, 0));
-    padding-bottom: 9%;
+    /* padding-bottom: 9%; */
 }
 .Team-heading
-{   margin-top: 20px;
+{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+     /* margin-top: 3vh;
+    margin-bottom: 15vh; */
     color: white;
     /* border: 2px solid white; */
+    background:transparent;
+
     font-size: 80px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background: linear-gradient(to right,black 50%,blue); */
@@ -42,6 +50,8 @@ body
     align-items: center;
     /* border: 2px solid rgb(192, 17, 17); */
     box-sizing: border-box;
+    background: radial-gradient(rgb(2, 21, 48) ,rgb(0, 0, 0));
+
 }
 
 
