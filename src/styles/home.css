@@ -44,3 +44,20 @@ body
     /* border: 2px solid rgb(192, 17, 17); */
     box-sizing: border-box;
 }
+
+
+/*scroll bar*/
+::-webkit-scrollbar
+{
+    width: 15px;
+    /* color-scheme: dark blue; */
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgb(22, 68, 95);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track
+{
+    background: rgb(2, 21, 48);
+}
