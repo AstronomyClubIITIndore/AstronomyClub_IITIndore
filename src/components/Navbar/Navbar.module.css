@@ -26,9 +26,9 @@
   width: 100% ;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: lighter;
-  position: sticky;
-  top: 0px;
-  z-index: 1000;
+  /* position: sticky;
+  top: 0;
+  z-index: 1000; */
 }
 
 .topnav {
@@ -41,9 +41,6 @@
   
 }
  .nonresponsive {
-  /* position: sticky;
-  top: 0px;
-  z-index: 1000; */
   display: flex;
   justify-content: space-around;
 }
