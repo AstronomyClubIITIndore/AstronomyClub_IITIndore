@@ -42,8 +42,26 @@ function Hero() {
       control.start("visible");
     }
   }, [control, inView]);
+ 
 
+  //script for herotext container
+  const hoverontext = () => {
+  const textContainer = document.querySelector('.herotext');
+  const gradientSize = 450 / 2; 
 
+  textContainer.addEventListener('mousemove', (e) => {
+      const rect = textContainer.getBoundingClientRect();
+      const x = e.clientX - rect.left - gradientSize;
+      const y = e.clientY - rect.top - gradientSize;
+
+      textContainer.style.backgroundPosition = `${x}px ${y}px`;
+
+  });
+//   textContainer.addEventListener('mouseleave', () => {
+//     textContainer.style.backgroundPosition = 'default';    
+// }
+// );
+}
   return (
     <>
       <div className="text-white border-red-700 border-0 font-serif flex  overflow-x-hidden " style={{background:"radial-gradient(rgb(2, 21, 48) 1%, rgb(0, 0, 0))"}} >
@@ -67,10 +85,10 @@ function Hero() {
             </div>
            
           </motion.div>
-          <motion.div className=" w-[70%] text-xl mx-[5vh]"
+          <motion.div className=" w-[70%] text-xl mx-[5vh] herotext"
           variants={smaller_top} animate={control} initial="hidden" whileInView="visible" style={{
             fontFamily:"Trebuchet MS"
-          }}>
+          }}  onMouseMove={hoverontext}>
             The Astronomy Club at IIT Indore fosters a passion for the cosmos through stargazing sessions, workshops, and educational talks. We provide a platform for students to explore celestial phenomena, engage in astrophotography, and collaborate on research projects, promoting a deeper understanding of the universe and its wonders.
           </motion.div>
           
