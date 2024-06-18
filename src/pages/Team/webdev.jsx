@@ -33,25 +33,37 @@ function Webdev() {
           name: "Ayush Khadkekar",
           img: Ayushkhadkekar,
           designation: "Member",
+          ig: "https://www.instagram.com/ayush_khadkekar",
+          lin: "https://www.linkedin.com/in/ayush-khadkekar-b20809279/?originalSubdomain=in",
+          git : "https://github.com/ayushkhadkekar3462"
         },
         {
           email: "mems220005015@iiti.ac.in",
           name: "Atharva Porwal",
           img: Atharvaporwal,
           designation: "Member",
+          ig: "https://www.instagram.com/atharv_porwal_?igsh=MXJtczdlbTQ0dDl4aw==",
+          lin: "https://www.linkedin.com/in/atharva-porwal-285412258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          git : "https://github.com/AtharvaPorwal"
         },
       
         {
-          email: "mems220005001@iiti.ac.in",
+          email: "Mems220005001@iiti.ac.in",
           name: "Abhishek AP",
           img: Abhishekap,
           designation: "Member",
+          ig: "https://www.instagram.com/abhiap2004/?hl=en",
+          lin: "https://www.linkedin.com/in/abhishek-a-p-66104425b/",
+          git : "https://github.com/Abhiap2004"
         },
         {
-          email: "vandan nagori.ac.in",
+          email: "sse230021020@iiti.ac.in",
           name: "Vandan Nagori",
           img: Vandannagori,
           designation: "Member",
+          ig: "https://www.instagram.com/vandan__nagori1423?igsh=bXo4MndwNDByc2c%3D&utm_source=qr",
+          lin: "https://www.linkedin.com/in/vandan-nagori-140a132b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          git : "https://github.com/Vandan1423"
         },
       ],
     ],
