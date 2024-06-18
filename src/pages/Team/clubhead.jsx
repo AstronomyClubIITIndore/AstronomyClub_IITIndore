@@ -16,7 +16,7 @@ function Clubhead() {
     members: [
       [
         {
-          email: "keshavagrawal@gmail.com",
+          email: "mscphd2301121015@iiti.ac.in",
           name: "Keshav Agrawal",
           img: keshav,
           designation: "Club-Head ",
