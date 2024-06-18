@@ -24,67 +24,67 @@ function Magazine() {
     members: [
       [
         {
-          email: "devesh.sharma@iiti.ac.in",
+          email: "msc2303121008@iiti.ac.in",
           name: "Devesh Sharma",
           img: Deveshsharma,
           designation: "Magazine Lead",
-          ig: "https://www.instagram.com/ezdev",
-          lin: "https://www.linkedin.com/in/devesh",
+          ig: "https://www.instagram.com/ezdevesh?igsh=MW54enJkOWh6aWg2YQ==",
+          lin: "https://www.linkedin.com/in/devesh-sharma-539a03207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: "https://github.com/ezdevesh"
         },
 
         {
-          email: "parul.pahurkar@iiti.ac.in",
+          email: "sse230021011@iiti.ac.in",
           name: "Parul Pahurkar",
           img: Parulpahurkar,
           designation: "Club Co-head",
-          ig: "https://www.instagram.com/ppahu",
-          lin: "https://www.linkedin.com/in/parul-p",
+          ig: "https://www.instagram.com/ppahurkar21/",
+          lin: "https://www.linkedin.com/in/parul-pahurkar-9b2b2a2b9/",
           git: ""
         },
         {
-          email: "anjanayae.chaurasia@iiti.ac.in",
+          email: "sse230021002@iiti.ac.in",
           name: "Anjanayae Chaurasia",
           img: Anjanayae,
           designation: "Member",
-          ig: "https://www.instagram.com/anjan",
-          lin: "https://www.linkedin.com/in/anjana",
+          ig: "https://www.instagram.com/anjanayae_chaurasia?igsh=MTAzeW03eTBlbDdn",
+          lin: "https://www.linkedin.com/in/anjanayae-chaurasia-054615280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: "https://github.com/Anjanayae"
         },
         {
-          email: "anuvab.mandal@iiti.ac.in",
+          email: "sse230021003@iiti.ac.in",
           name: "Anuvab Mandal",
           img: Anuvab,
           designation: "Member + Merch Treasurer",
-          ig: "https://www.instagram.com/itzz.m",
-          lin: "https://in.linkedin.com/in/anuvab-m",
+          ig: "https://www.instagram.com/itzz.mandal?igsh=dml3YzBrcGN0NnRn",
+          lin: "https://in.linkedin.com/in/anuvab-mandal-366a83307",
           git: "https://github.com/mandal0204"
         },
         {
-          email: "dhriti.jha@iiti.ac.in",
+          email: "sse230021007@iiti.ac.in",
           name: "Dhriti Jha",
           img: Dhritijha,
           designation: "Member",
           ig: "",
-          lin: "https://www.linkedin.com/in/dhriti-jh",
+          lin: "https://www.linkedin.com/in/dhriti-jha-75bbb9285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: ""
         },
         {
-          email: "tanuj.sidhwa@iiti.ac.in",
+          email: "me230003073@iiti.ac.in",
           name: "Tanuj Sidhwa",
           img: Sidhwatanuj,
           designation: "Member",
-          ig: "https://www.instagram.com/tanuj_",
-          lin: "https://www.linkedin.com/in/tanuj-s",
+          ig: "https://www.instagram.com/tanuj_sidhwa/",
+          lin: "https://www.linkedin.com/in/tanuj-sidhwa/",
           git: "https://github.com/tanuj-sidhwa"
         },
         {
-          email: "sibasish.barik@iiti.ac.in",
+          email: "ce230004044@iiti.ac.in",
           name: "Sibasish Barik",
           img: Sibasishbarik,
           designation: "Member",
-          ig: "https://www.instagram.com/sibasi",
-          lin: "www.linkedin.com/in/sibasish-barik",
+          ig: "https://www.instagram.com/sibasish_barik22/",
+          lin: "www.linkedin.com/in/sibasish-barik-9b7b37259",
           git: "https://github.com/sibasish-b22git"
         },
         {
@@ -98,21 +98,21 @@ function Magazine() {
         },
       
         {
-          email: "aryan.bhake@iiti.ac.in",
+          email: "msc2303121005@iiti.ac.in",
           name: "Aryan Bhake",
           img: Aryanbhake,
           designation: "Member",
-          ig: "https://www.instagram.com/aryan",
-          lin: "https://www.linkedin.com/in/aryan-",
+          ig: "https://www.instagram.com/aryan.bhake01?igsh=a3hjM3o3NmxoNnQx",
+          lin: "https://www.linkedin.com/in/aryan-bhake-234a912bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: ""
         },
         {
-          email: "parth.kothari@iiti.ac.in",
+          email: "msc2303121012@iiti.ac.in",
           name: "Parth Kothari",
           img: Parthkothari,
           designation: "Member",
-          ig: "https://www.instagram.com/pathla",
-          lin: "https://www.linkedin.com/in/parth-k",
+          ig: "https://www.instagram.com/pathlab_963?igsh=dGFiY2w5cDdkb211",
+          lin: "https://www.linkedin.com/in/parth-kothari-694b9a26a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: ""
         },
       ],
