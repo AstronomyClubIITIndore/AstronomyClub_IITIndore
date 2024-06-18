@@ -24,12 +24,12 @@ function Outreach() {
     members: [
       [
         {
-          email: "vedansh.shrivastava@iiti.ac.in",
+          email: "me230003086@iiti.ac.in",
           name: "Vedansh Shrivastava",
           img: Vedansh,
           designation: "Outreach Lead",
-          ig: "https://www.instagram.com/velvet",
-          lin: "https://www.linkedin.com/in/explore",
+          ig: "https://www.instagram.com/velvet_vibzz?igsh=MTFyeW9mc2ZoZXVkag==",
+          lin: "https://www.linkedin.com/in/explorerr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: ""
         },
         {
@@ -42,67 +42,67 @@ function Outreach() {
           git: ""
         },
         {
-          email: "aarushi.singh@iiti.ac.in",
+          email: "ep230051001@iiti.ac.in",
           name: "Aarushi Singh",
           img: Aarushisingh,
           designation: "Member",
-          ig: "",
-          lin: "https://www.linkedin.com/in/aarush",
-          git: ""
+          ig: "https://www.instagram.com/aarushis_06/?next=%2F",
+          lin: "https://www.linkedin.com/in/aarushi-singh-67246b294/",
+          git: "https://github.com/Amberss-Log"
         },
         {
-          email: "prince.kumar@iiti.ac.in",
+          email: "ep230051013@iiti.ac.in",
           name: "Prince Kumar",
           img: Princekumar,
           designation: "Member",
-          ig: "https://www.instagram.com/prince",
-          lin: "https://www.linkedin.com/in/k07prin",
-          git: "https://github.com/Princekumaroff"
+          ig: "https://www.instagram.com/prince.__.kumar",
+          lin: "https://www.linkedin.com/in/k07prince?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          git: "https://github.com/Princekumarofficial"
         },
         {
-          email: "anshul.gaharwal@iiti.ac.in",
+          email: "me230003007@iiti.ac.in",
           name: "Anshul Gaharwal",
           img: Anshulgaharwal,
           designation: "Member",
           ig: "",
-          lin: "https://www.linkedin.com/in/anshul",
+          lin: "https://www.linkedin.com/in/anshul-gaharwal-73ba62288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: ""
         },
         {
-          email: "tripti.anand@iiti.ac.in",
+          email: "cse230001078@iiti.ac.in",
           name: "Tripti Anand",
           img: Triptianand,
           designation: "Member",
           ig: "",
-          lin: "https://www.linkedin.com/in/tripti-a",
+          lin: " https://www.linkedin.com/in/tripti-anand-a01a5a299/",
           git: ""
         },
         
         {
-          email: "anushka.agarwal@iiti.ac.in",
+          email: "msc2303121004@iiti.ac.in",
           name: "Anushka Agarwal",
           img: Anushka,
           designation: "Member",
-          ig: "",
-          lin: "",
-          git: ""
+          ig: "https://www.instagram.com/anushkaagarwal2104?igsh=MWw2YzBtNjh0cGZ3cw==",
+          lin: "https://www.linkedin.com/in/anushka-agarwal-967223289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          git: "https://github.com/anushkaagarwal21"
         },
         {
-          email: "annie.chandrika@iiti.ac.in",
+          email: "msc2303121003@iiti.ac.in",
           name: "Annie Chandrika",
           img: unknowngirls,
           designation: "Member",
-          ig: "https://www.instagram.com/annie",
+          ig: "https://www.instagram.com/annie.chandrika?igsh=ZDBsdmY0b3czZjBt",
           lin: "",
           git: ""
         },
         {
-          email: "daisy.boro@iiti.ac.in",
+          email: "msc2303121007@iiti.ac.in",
           name: "Daisy Boro",
           img: unknownboys,
           designation: "Member",
-          ig: "https://www.instagram.com/daisy.",
-          lin: "https://www.linkedin.com/in/daisy-b",
+          ig: "https://www.instagram.com/daisy.boro.50?igsh=MWNlejMwNnpmb2ViaA==",
+          lin: "https://www.linkedin.com/in/daisy-boro-0a772328b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: ""
         },
       ],
