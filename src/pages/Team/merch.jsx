@@ -26,22 +26,22 @@ function Merch() {
     members: [
       [
         {
-          email: "hrishikesh.jawale@iiti.ac.in",
+          email: "me220003038@iiti.ac.in",
           name: "Hrishikesh Jawale",
           img: Hrishikesh,
           designation: "Merch Lead",
-          ig: "https://www.instagram.com/hrjz02",
+          ig: "https://www.instagram.com/hrjz02?igsh=ZTM0bjZuZXRsZW96",
           lin: "",
           git: ""
         }, 
 
         {
-          email: "prem.pratik@iiti.ac.in",
+          email: "sse230021012@iiti.ac.in",
           name: "Prem Pratik",
           img: Prempratik,
           designation: "Merch",
-          ig: "https://www.instagram.com/pratik",
-          lin: "https://www.linkedin.com/in/prem-p",
+          ig: "https://www.instagram.com/pratik_x077?igsh=MThncDRydG5jOWsyZA==",
+          lin: "https://www.linkedin.com/in/prem-pratik-240872283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: ""
         },
         {
