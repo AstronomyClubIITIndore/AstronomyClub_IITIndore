@@ -15,7 +15,7 @@ function Alumni() {
     members: [
       [
         {
-          email: "jaysurya@gmail.com",
+          email: "me200003034@iiti.ac.in",
           name: "Jai Surya Katla",
           img: Jaisurya,
           designation: "Club Head (2022-23)",
