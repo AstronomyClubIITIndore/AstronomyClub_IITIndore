@@ -38,84 +38,84 @@ function Logistics() {
           git: ""
         },
         {
-          email: "aarav.gupta@iiti.ac.in",
+          email: "che230008001@iiti.ac.in",
           name: "Aarav Gupta",
           img: Aaravgupta,
           designation: "Member",
-          ig: "https://www.instagram.com/aarav",
-          lin: "https://www.linkedin.com/in/aarav-",
+          ig: "https://www.instagram.com/aaravgupta025?igsh=MWVxeGFxdmF2YmJhZQ==",
+          lin: "https://www.linkedin.com/in/aarav-gupta-0574192a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: "https://github.com/aaravgupta026"
         },
         {
-          email: "aman.choudhary@iiti.ac.in",
+          email: "sse230021001@iiti.ac.in",
           name: "Aman Choudhary",
           img:   Aman,
           designation: "Member",
-          ig: "https://www.instagram.com/aman",
-          lin: "https://drive.google.com/open",
+          ig: "https://www.instagram.com/aman_choudhary2385?igsh=dDlpMzE2bHJwZWd0",
+          lin: "",
           git: ""
         },
         {
-          email: "apoorv.singh@iiti.ac.in",
+          email: "sse230021004@iiti.ac.in",
           name: "Apoorv Singh",
           img: Apoorvsingh,
           designation: "Member",
-          ig: "https://www.instagram.com/apoor",
-          lin: "https://www.linkedin.com/in/apoorv",
-          git: ""
+          ig: "https://www.instagram.com/apoorv.s_07?igsh=MWxta3pubjRqdmFzMA==",
+          lin: "https://www.linkedin.com/in/apoorv-singh-18758b287",
+          git: "https://github.com/Ap00rv-1"
         },
        
         {
-          email: "kaveri@iiti.ac.in",
+          email: "sse230021010@iiti.ac.in",
           name: "N Kaveri",
           img: Kaveri,
           designation: "Member",
-          ig: "https://www.instagram.com/itz_ka",
-          lin: "https://drive.google.com/open",
+          ig: "https://www.instagram.com/itz_kaveriiii?igsh=MWFuM2Q0OXJ6bWJvbA==",
+          lin: "",
           git: ""
         },
         {
-          email: "dodiya.yash@iiti.ac.in",
+          email: "sse230021008@iiti.ac.in",
           name: "Dodiya Yash Kumar",
           img: unknownboys,
           designation: "Member",
-          ig: "https://www.instagram.com/yash",
-          lin: "https://www.linkedin.com/in/yash-d",
-          git: ""
+          ig: "https://www.instagram.com/yashh__.7?igsh=MWJhZ3lvaWxjMjBlOQ==",
+          lin: "https://www.linkedin.com/in/yash-dodiya-416407290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          git: "https://github.com/yashdodiya9"
         },
         {
-          email: "siddharth.vezzu@iiti.ac.in",
+          email: "sse230021016@iiti.ac.in",
           name: "Siddharth Vezzu",
           img: Siddharthvezzu,
           designation: "Member",
-          ig: "https://www.instagram.com/sidve",
-          lin: "www.linkedin.com/in/siddharth-vez",
-          git: ""
+          ig: " https://www.instagram.com/sidvez_6?igsh=MW1pOG1laTd2M2tpZQ==",
+          lin: "www.linkedin.com/in/siddharth-vezzu-38652030b",
+          git: "https://github.com/SidVez"
         },
         {
-          email: "gopi.charan@iiti.ac.in",
+          email: "sse230021017@iiti.ac.in",
           name: "Gopi Charan",
           img: unknownboys,
           designation: "Member",
-          ig: "https://www.instagram.com/chand",
-          lin: "https://www.linkedin.com/in/gopi-ch",
-          git: ""
+          ig: "https://www.instagram.com/chandunelavalli?igsh=aGxwZzZuOGNlOXF3",
+          lin: "https://www.linkedin.com/in/gopi-charan-nelavalli-62278728a",
+          git: "https://github.com/Chandu-08"
         },
         {
-          email: "daksh.chandel@iiti.ac.in",
+          email: "ee230002019@iiti.ac.in",
           name: "Daksh Chandel",
           img: Dakshchandel,
           designation: "Member",
-          ig: "https://www.instagram.com/dc05_",
-          lin: "https://www.linkedin.com/in/daksh-",
-          git: ""
+          ig: "https://www.instagram.com/dc05_buriburi?igsh=MTRmdTZuZjBuYTFhZg==",
+          lin: "https://www.linkedin.com/in/daksh-chandel-6a0812298/",
+          git: "https://github.com/DC-005"
         },
         {
-          email: "vishrut.pandya@iiti.ac.in",
+          email: "msc2303121015@iiti.ac.in",
           name: "Vishrut Pandya",
           img: Vishrutpandya,
           designation: "Member",
-          ig: "https://www.instagram.com/follow",
+          ig: "https://www.instagram.com/following_light_30?igsh=cW1iZGx3azRldjll",
           lin: "",
           git: ""
         },
