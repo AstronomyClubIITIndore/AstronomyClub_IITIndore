@@ -34,7 +34,7 @@ function Projects() {
       pName: "100 hours of Astronomy",
       img: "https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1",
       pInfo:
-        "The "100 Hours of Astronomy" is an annual outreach event organized globally by the International Astronomical Union (IAU). This event aims to engage as many people as possible in celebrating the wonders of astronomy and the cosmos. The AsSET club at IIT Indore actively participates in this event every year, organizing various outreach and educational activities within the IITI community. These activities include public stargazing sessions, interactive workshops, lectures by renowned astronomers, and hands-on demonstrations. Through these events, the club strives to foster a deeper appreciation for astronomy and inspire a sense of wonder about the universe among participants.",
+        "The '100 Hours of Astronomy' is an annual outreach event organized globally by the International Astronomical Union (IAU). This event aims to engage as many people as possible in celebrating the wonders of astronomy and the cosmos. The AsSET club at IIT Indore actively participates in this event every year, organizing various outreach and educational activities within the IITI community. These activities include public stargazing sessions, interactive workshops, lectures by renowned astronomers, and hands-on demonstrations. Through these events, the club strives to foster a deeper appreciation for astronomy and inspire a sense of wonder about the universe among participants.",
       pLink:
         "https://github.com/AstronomyClubIITIndore/AstronomyClub_IITIndore/tree/main",
     },
