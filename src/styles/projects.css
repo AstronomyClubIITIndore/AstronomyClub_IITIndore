@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   background: radial-gradient(rgb(2, 21, 48), rgb(0, 0, 0));
+  padding-bottom: 2%;
 }
 .Projects-heading {
   color: white;

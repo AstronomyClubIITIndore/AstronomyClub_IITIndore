@@ -29,7 +29,7 @@ function Logistics() {
     members: [
       [
         {
-          email: "arnav.deshpande@iiti.ac.in",
+          email: "",
           name: "Arnav Deshpande",
           img: unknownboys,
           designation: "Logistics Lead",
@@ -74,15 +74,15 @@ function Logistics() {
           lin: "",
           git: ""
         },
-        {
-          email: "sse230021008@iiti.ac.in",
-          name: "Dodiya Yash Kumar",
-          img: unknownboys,
-          designation: "Member",
-          ig: "https://www.instagram.com/yashh__.7?igsh=MWJhZ3lvaWxjMjBlOQ==",
-          lin: "https://www.linkedin.com/in/yash-dodiya-416407290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          git: "https://github.com/yashdodiya9"
-        },
+        // {
+        //   email: "sse230021008@iiti.ac.in",
+        //   name: "Dodiya Yash Kumar",
+        //   img: unknownboys,
+        //   designation: "Member",
+        //   ig: "https://www.instagram.com/yashh__.7?igsh=MWJhZ3lvaWxjMjBlOQ==",
+        //   lin: "https://www.linkedin.com/in/yash-dodiya-416407290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        //   git: "https://github.com/yashdodiya9"
+        // },
         {
           email: "sse230021016@iiti.ac.in",
           name: "Siddharth Vezzu",
@@ -92,15 +92,15 @@ function Logistics() {
           lin: "www.linkedin.com/in/siddharth-vezzu-38652030b",
           git: "https://github.com/SidVez"
         },
-        {
-          email: "sse230021017@iiti.ac.in",
-          name: "Gopi Charan",
-          img: unknownboys,
-          designation: "Member",
-          ig: "https://www.instagram.com/chandunelavalli?igsh=aGxwZzZuOGNlOXF3",
-          lin: "https://www.linkedin.com/in/gopi-charan-nelavalli-62278728a",
-          git: "https://github.com/Chandu-08"
-        },
+        // {
+        //   email: "sse230021017@iiti.ac.in",
+        //   name: "Gopi Charan",
+        //   img: unknownboys,
+        //   designation: "Member",
+        //   ig: "https://www.instagram.com/chandunelavalli?igsh=aGxwZzZuOGNlOXF3",
+        //   lin: "https://www.linkedin.com/in/gopi-charan-nelavalli-62278728a",
+        //   git: "https://github.com/Chandu-08"
+        // },
         {
           email: "ee230002019@iiti.ac.in",
           name: "Daksh Chandel",
@@ -119,60 +119,60 @@ function Logistics() {
           lin: "",
           git: ""
         },
-        {
-          email: "atharv.mirashi@iiti.ac.in",
-          name: "Atharv Mirashi",
-          img: unknownboys,
-          designation: "Member",
-          ig: "",
-          lin: "",
-          git: ""
-        },
-        {
-          email: "harshal.raut@iiti.ac.in",
-          name: "Harshal Raut",
-          img: unknownboys,
-          designation: "Member",
-          ig: "",
-          lin: "",
-          git: ""
-        },
-        {
-          email: "keerthi@iiti.ac.in",
-          name: "Keerthi",
-          img: unknowngirls,
-          designation: "Member",
-          ig: "",
-          lin: "",
-          git: ""
-        },
-        {
-          email: "amardeep@iiti.ac.in",
-          name: "Amar Deep",
-          img: unknownboys,
-          designation: "Member",
-          ig: "",
-          lin: "",
-          git: ""
-        },
-        {
-          email: "katta@iiti.ac.in",
-          name: "katta Rajat",
-          img: unknownboys,
-          designation: "Member",
-          ig: "",
-          lin: "",
-          git: ""
-        },
-        {
-          email: "souradeep@iiti.ac.in",
-          name: "souradeep Hazra",
-          img: unknownboys,
-          designation: "Member",
-          ig: "",
-          lin: "",
-          git: ""
-        },
+        // {
+        //   email: "atharv.mirashi@iiti.ac.in",
+        //   name: "Atharv Mirashi",
+        //   img: unknownboys,
+        //   designation: "Member",
+        //   ig: "",
+        //   lin: "",
+        //   git: ""
+        // },
+        // {
+        //   email: "harshal.raut@iiti.ac.in",
+        //   name: "Harshal Raut",
+        //   img: unknownboys,
+        //   designation: "Member",
+        //   ig: "",
+        //   lin: "",
+        //   git: ""
+        // },
+        // {
+        //   email: "keerthi@iiti.ac.in",
+        //   name: "Keerthi",
+        //   img: unknowngirls,
+        //   designation: "Member",
+        //   ig: "",
+        //   lin: "",
+        //   git: ""
+        // },
+        // {
+        //   email: "amardeep@iiti.ac.in",
+        //   name: "Amar Deep",
+        //   img: unknownboys,
+        //   designation: "Member",
+        //   ig: "",
+        //   lin: "",
+        //   git: ""
+        // },
+        // {
+        //   email: "katta@iiti.ac.in",
+        //   name: "katta Rajat",
+        //   img: unknownboys,
+        //   designation: "Member",
+        //   ig: "",
+        //   lin: "",
+        //   git: ""
+        // },
+        // {
+        //   email: "souradeep@iiti.ac.in",
+        //   name: "souradeep Hazra",
+        //   img: unknownboys,
+        //   designation: "Member",
+        //   ig: "",
+        //   lin: "",
+        //   git: ""
+        // },
        
       ],
     ],

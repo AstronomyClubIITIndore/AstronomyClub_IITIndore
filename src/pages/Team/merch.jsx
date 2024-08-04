@@ -44,24 +44,24 @@ function Merch() {
           lin: "https://www.linkedin.com/in/prem-pratik-240872283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: ""
         },
-        {
-          email: "sameer.kumar@iiti.ac.in",
-          name: "Sameer Kumar",
-          img: unknownboys,
-          designation: "Merch",
-          ig: "",
-          lin: "",
-          git: ""
-        },
-        {
-          email: "sai.pranav@iiti.ac.in",
-          name: "Sai Pranav",
-          img: unknownboys,
-          designation: "Merch",
-          ig: "",
-          lin: "",
-          git: ""
-        },
+        // {
+        //   email: "sameer.kumar@iiti.ac.in",
+        //   name: "Sameer Kumar",
+        //   img: unknownboys,
+        //   designation: "Merch",
+        //   ig: "",
+        //   lin: "",
+        //   git: ""
+        // },
+        // {
+        //   email: "sai.pranav@iiti.ac.in",
+        //   name: "Sai Pranav",
+        //   img: unknownboys,
+        //   designation: "Merch",
+        //   ig: "",
+        //   lin: "",
+        //   git: ""
+        // },
        
       ],
     ],

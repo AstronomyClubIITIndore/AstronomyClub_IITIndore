@@ -87,15 +87,15 @@ function Magazine() {
           lin: "www.linkedin.com/in/sibasish-barik-9b7b37259",
           git: "https://github.com/sibasish-b22git"
         },
-        {
-          email: "tejas.rajuskar@iiti.ac.in",
-          name: "Tejas Rajuskar",
-          img: unknownboys,
-          designation: "Member",
-          ig: "",
-          lin: "",
-          git: ""
-        },
+        // {
+        //   email: "tejas.rajuskar@iiti.ac.in",
+        //   name: "Tejas Rajuskar",
+        //   img: unknownboys,
+        //   designation: "Member",
+        //   ig: "",
+        //   lin: "",
+        //   git: ""
+        // },
       
         {
           email: "msc2303121005@iiti.ac.in",

@@ -4,7 +4,7 @@ import "../../styles/projects.css";
 function PCard(project) {
   return (
     <>
-      <div className="Projects-Card">
+    <center><div className="Projects-Card w-[90vw] ">
         <div
           className="Photo"
           style={{
@@ -13,13 +13,14 @@ function PCard(project) {
         <div className="Info">
           <h2>{project.pName}</h2>
           <p>{project.pInfo}</p>
-          <div>
+          {/* <div>
             <a href={project.pLink} className="button">
               Link
             </a>
-          </div>
+          </div> */}
         </div>
-      </div>
+      </div></center>
+      
     </>
   );
 }

@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import '../../styles/activities.css'
 import PCard from '../Projects/ProjectsCard';
 import Footer from "../../components/Footer/Footer";
+import hundredhrs from "../../assets/hero/hundredhrs.jpg";
 
 function Activities() {
   const projectsInfo = [
@@ -32,11 +33,11 @@ function Activities() {
     },
     {
       pName: "Nakshatra",
-      img: "https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1",
+      img: hundredhrs,
       pInfo:
         "Nakshatra is the annual flagship event of the AsSET club at IIT Indore, celebrating the wonders of astronomy and space science. Last year, the club represented the '100 Hours of Astronomy', an international outreach initiative by the International Astronomical Union (IAU) aimed at engaging people in exploring and appreciating the marvels of the astronomical world. During Nakshatra, the AsSET club organized public stargazing sessions, interactive workshops, and lectures by renowned astronomers. These activities foster a deeper understanding of the cosmos and inspire a sense of wonder about the universe among participants. Through Nakshatra, the AsSET club continues to promote the importance of space science and technology.",
       pLink:
-        "https://github.com/AstronomyClubIITIndore/AstronomyClub_IITIndore/tree/main",
+        "",
     },
     {
       pName: "World Space Week",

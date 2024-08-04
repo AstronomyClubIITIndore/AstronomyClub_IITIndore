@@ -87,24 +87,24 @@ function Outreach() {
           lin: "https://www.linkedin.com/in/anushka-agarwal-967223289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: "https://github.com/anushkaagarwal21"
         },
-        {
-          email: "msc2303121003@iiti.ac.in",
-          name: "Annie Chandrika",
-          img: unknowngirls,
-          designation: "Member",
-          ig: "https://www.instagram.com/annie.chandrika?igsh=ZDBsdmY0b3czZjBt",
-          lin: "",
-          git: ""
-        },
-        {
-          email: "msc2303121007@iiti.ac.in",
-          name: "Daisy Boro",
-          img: unknownboys,
-          designation: "Member",
-          ig: "https://www.instagram.com/daisy.boro.50?igsh=MWNlejMwNnpmb2ViaA==",
-          lin: "https://www.linkedin.com/in/daisy-boro-0a772328b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          git: ""
-        },
+        // {
+        //   email: "msc2303121003@iiti.ac.in",
+        //   name: "Annie Chandrika",
+        //   img: unknowngirls,
+        //   designation: "Member",
+        //   ig: "https://www.instagram.com/annie.chandrika?igsh=ZDBsdmY0b3czZjBt",
+        //   lin: "",
+        //   git: ""
+        // },
+        // {
+        //   email: "msc2303121007@iiti.ac.in",
+        //   name: "Daisy Boro",
+        //   img: unknownboys,
+        //   designation: "Member",
+        //   ig: "https://www.instagram.com/daisy.boro.50?igsh=MWNlejMwNnpmb2ViaA==",
+        //   lin: "https://www.linkedin.com/in/daisy-boro-0a772328b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        //   git: ""
+        // },
       ],
     ],
   });
