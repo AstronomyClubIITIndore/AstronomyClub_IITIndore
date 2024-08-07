@@ -19,7 +19,7 @@ function Team() {
       <div className="Team-encloser1">
         <Navbar />
       </div>
-			<div className="Team-encloser2"> <div className="Team-heading">	&lt;Our Team/&gt; </div></div>
+			<div className="Team-encloser2"> <div className="Team-heading">	Our Team </div></div>
 			<center className='TeamName'>Club Head</center>
 			<Clubhead />
 			<center className='TeamName'>Logistics + KV + Stargazing</center>

@@ -4,12 +4,14 @@ import '../../styles/activities.css'
 import PCard from '../Projects/ProjectsCard';
 import Footer from "../../components/Footer/Footer";
 import hundredhrs from "../../assets/hero/hundredhrs.jpg";
-
+import stargazing from "../../assets/stargazing.jpg";
+import guestlecture from "../../assets/guestlecture.png";
+ 
 function Activities() {
   const projectsInfo = [
     {
       pName: "Stargazing",
-      img: "https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1",
+      img: stargazing,
       pInfo:
         "Stargazing is a primary event organized monthly by the Astronomy Club at IIT Indore. Supported by the Department of Astronomy, Astrophysics, and Space Engineering (DAASE), the club uses various telescopes to observe celestial objects visible in the night sky. These events offer participants an opportunity to explore planets, stars, and galaxies, often guided by experts. The sessions foster curiosity and a deeper understanding of the cosmos, attracting enthusiasts from across the IIT Indore community.",
       pLink:
@@ -17,7 +19,7 @@ function Activities() {
     },
     {
       pName: "Guest Lectures",
-      img: "https://drive.google.com/uc?export=view&id=1BQcDeQ4ytZRYZyMPzlfS4arBxM_JYcix",
+      img: guestlecture,
       pInfo:
         "Guest Lectures are a significant feature of the Astronomy Club at IIT Indore. The club regularly invites speakers from around the world, including renowned researchers, industry experts, and innovative thinkers. These guest lectures provide a platform for speakers to share their latest research findings, offer insights into industry trends, discuss future prospects in the field, and present their innovative ideas. Additionally, speakers often share their personal experiences and career journeys, providing valuable inspiration and guidance to students. These sessions not only enhance the knowledge of club members but also foster a deeper understanding of the vast and dynamic field of astronomy and space science.",
       pLink:
@@ -25,7 +27,7 @@ function Activities() {
     },
     {
       pName: "Kendriya Vidyalaya activities",
-      img: "https://drive.google.com/uc?export=view&id=1vW445yW3YgGL8h96E7esyWU4oQKMt3eo",
+      img: "https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1",
       pInfo:
         "As part of its outreach initiatives, the Astronomy Club at IIT Indore organizes several educational activities at Kendriya Vidyalaya, IIT Indore. These activities include Sun-Spot viewing sessions, where students get to observe solar phenomena using special equipment. Additionally, the club conducts creative sessions such as glass painting and 3D model making, which help students visualize and understand astronomical concepts. The outreach also features talk sessions delivered by club members in collaboration with DAASE faculties, providing students with insights into astronomy and space science. These activities aim to ignite a passion for science and astronomy among young students.",
       pLink:
