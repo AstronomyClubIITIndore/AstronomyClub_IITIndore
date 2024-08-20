@@ -6,7 +6,7 @@ import {
   Apoorvsingh,
   // ArnavDeshpande,
   Kaveri,
-  // DodiyaYashKumar,
+  DodiyaYashKumar,
   Siddharthvezzu,
   // GopiCharan,
   Dakshchandel,
@@ -77,7 +77,7 @@ function Logistics() {
         {
           email: "sse230021008@iiti.ac.in",
           name: "Dodiya Yash Kumar",
-          img: unknownboys,
+          img: DodiyaYashKumar,
           designation: "Member",
           ig: "https://www.instagram.com/yashh__.7?igsh=MWJhZ3lvaWxjMjBlOQ==",
           lin: "https://www.linkedin.com/in/yash-dodiya-416407290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

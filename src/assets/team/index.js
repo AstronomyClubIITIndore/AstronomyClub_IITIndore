@@ -32,6 +32,7 @@ import Vishrutpandya from './VishrutPandya.jpg';
 import keshav from './keshav.png';
 import Dikshitsuthar from './Dikshitsuthar.jpg';
 import pranjal from './pranjal.jpeg';
+import DodiyaYashKumar from './DodiyaYashKumar.jpeg';
 import unknowngirls from './unknowngirls.png';
 import unknownboys from './unknownboys.jpeg';
 
@@ -70,6 +71,7 @@ export {
     keshav,
     Dikshitsuthar,
     pranjal,
+    DodiyaYashKumar,
     unknowngirls,
     unknownboys,
 }
