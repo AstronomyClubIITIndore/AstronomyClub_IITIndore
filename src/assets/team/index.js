@@ -26,7 +26,7 @@ import Siddharthvezzu from './SiddharthVezzu.png';
 import Sidhwatanuj from './SidhwaTanuj.jpg';
 import Srinivasgopi from './SrinivasGopi.jpg';
 import Triptianand from './TriptiAnand.png';
-import Vandannagori from './VandanNagori.jpeg';
+import Vandannagori from './VandanNagori.jpg';
 import Vedansh from './Vedansh.jpg';
 import Vishrutpandya from './VishrutPandya.jpg';
 import keshav from './keshav.png';
