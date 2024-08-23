@@ -64,10 +64,10 @@ function Hero() {
 }
   return (
     <>
-      <div className="text-white border-red-700 border-0 font-serif flex  overflow-x-hidden " style={{background:"radial-gradient(rgb(2, 21, 48) 1%, rgb(0, 0, 0))"}} >
+      <div className="text-white border-red-700 border-0 font-serif flex flex-wrap overflow-x-hidden herocontain " style={{background:"radial-gradient(rgb(2, 21, 48) 1%, rgb(0, 0, 0))"}} >
         {/* outermost flex-item-1 */}
-        <div className={`border-0 border-green-600 sm:w-[50%] w-[100%]`}>
-          <motion.div id="heading" className="text-7xl my-[5vh] mx-[5vh] mb-[3vh]" 
+        <div className={`border-0 border-green-600 w-full md:w-1/2 order-1 md:order-2`}>
+          <motion.div id="heading" className=" text-4xl md:text-7xl my-[5vh] mx-[5vh] mb-[3vh]" 
           variants={smaller_top} animate={control} initial="hidden" whileInView="visible" style={{fontFamily:"Trebuchet MS"}}>
             Welcome to The<span style={{color:"rgb(164, 253, 0)"}}> Astronomy Club</span>
             <div className="lg:block my-2 py-2 hidden font-bold text-5xl bg-gradient-to-r from-slate-600 via-black-500 to-indigo-400 text-transparent bg-clip-text"
@@ -118,7 +118,7 @@ function Hero() {
         </div>
 
         {/* outermost flex-item-2 */}
-        {<div className="sm:w-[50%] w-[100%] md:w-[50%] m-5 h-100 rounded-md  shadow-slate-50 border-2">
+        {<div className="w-full md:w-2/5 m-5 h-100 rounded-md shadow-slate-50 border-2 order-2 md:order-1 carousel1">
           {/* <img width={"90%"} src={heroImg} className=""  style={{height : '60vh' , margin : '5vh'}}/> */}
         
          <Carousel fade className="borderglow">
