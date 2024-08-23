@@ -26,12 +26,13 @@ import Siddharthvezzu from './SiddharthVezzu.png';
 import Sidhwatanuj from './SidhwaTanuj.jpg';
 import Srinivasgopi from './SrinivasGopi.jpg';
 import Triptianand from './TriptiAnand.png';
-import Vandannagori from './VandanNagori.jpeg';
+import Vandannagori from './VandanNagori.jpg';
 import Vedansh from './Vedansh.jpg';
 import Vishrutpandya from './VishrutPandya.jpg';
 import keshav from './keshav.png';
 import Dikshitsuthar from './Dikshitsuthar.jpg';
 import pranjal from './pranjal.jpeg';
+import DodiyaYashKumar from './DodiyaYashKumar.jpeg';
 import unknowngirls from './unknowngirls.png';
 import unknownboys from './unknownboys.jpeg';
 
@@ -70,6 +71,7 @@ export {
     keshav,
     Dikshitsuthar,
     pranjal,
+    DodiyaYashKumar,
     unknowngirls,
     unknownboys,
 }
