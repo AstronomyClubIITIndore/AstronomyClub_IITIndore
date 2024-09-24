@@ -5,6 +5,7 @@ import Aman from './Aman.jpg';
 import Anjanayae from './Anjanayae.jpg';
 import Anshulgaharwal from './AnshulGaharwal.jpg';
 import Anushka from './Anushka.jpg';
+import ArnavDeshpande from './ArnavDeshpande.jpeg';
 import Anuvab from './Anuvab.jpg';
 import Apoorvsingh from './ApoorvSingh.jpg';
 import Aryanbhake from './AryanBhake.jpg';
@@ -12,11 +13,12 @@ import Atharvaporwal from './AtharvaPorwal.jpg';
 import Ayushkhadkekar from './AyushKhadkekar.jpg';
 import Dakshchandel from './DakshChandel.jpg';
 import Deveshsharma from './DeveshSharma.jpg';
-import Dhritijha from './DhritiJha.jpg';
+// import Dhritijha from './DhritiJha.jpg';
 import Hrishikesh from './Hrishikesh.jpeg';
 import Jaisurya from './JaiSurya.png';
 import Kaveri from './Kaveri.jpg';
 import Kumaranmol from './KumarAnmol.jpg';
+import NisargRathod from './NisargRathod.jpeg'
 import Parthkothari from './ParthKothari.jpg';
 import Parulpahurkar from './ParulPahurkar.jpg';
 import Prempratik from './PremPratik.jpg';
@@ -24,7 +26,7 @@ import Princekumar from './PrinceKumar.jpg';
 import Sibasishbarik from './SibasishBarik.jpg';
 import Siddharthvezzu from './SiddharthVezzu.png';
 import Sidhwatanuj from './SidhwaTanuj.jpg';
-import Srinivasgopi from './SrinivasGopi.jpg';
+// import Srinivasgopi from './SrinivasGopi.jpg';
 import Triptianand from './TriptiAnand.png';
 import Vandannagori from './VandanNagori.jpg';
 import Vedansh from './Vedansh.jpg';
@@ -40,18 +42,20 @@ export {
     Aaravgupta,
     Aarushisingh,
     Abhishekap,
+    NisargRathod,
     Aman,
     Anjanayae,
     Anshulgaharwal,
     Anushka,
     Anuvab,
     Apoorvsingh,
+    ArnavDeshpande,
     Aryanbhake,
     Atharvaporwal,
     Ayushkhadkekar,
     Dakshchandel,
     Deveshsharma,
-    Dhritijha,
+    // Dhritijha,
     Hrishikesh,
     Jaisurya,
     Kaveri,
@@ -63,7 +67,7 @@ export {
     Sibasishbarik,
     Siddharthvezzu,
     Sidhwatanuj,
-    Srinivasgopi,
+    // Srinivasgopi,
     Triptianand,
     Vandannagori,
     Vedansh,

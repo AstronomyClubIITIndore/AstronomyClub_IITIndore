@@ -5,13 +5,14 @@ import {
   Parulpahurkar,
   Anjanayae,
   Anuvab,
-  Dhritijha,
+//   Dhritijha,
   Sidhwatanuj,
   Sibasishbarik,
   unknownboys,
   Deveshsharma,
   Aryanbhake,
   Parthkothari,
+  NisargRathod,
 } from "../../assets/team";  
 
 
@@ -31,6 +32,15 @@ function Magazine() {
           ig: "https://www.instagram.com/ezdevesh?igsh=MW54enJkOWh6aWg2YQ==",
           lin: "https://www.linkedin.com/in/devesh-sharma-539a03207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           git: "https://github.com/ezdevesh"
+        },
+        {
+          email: "msc2303121008@iiti.ac.in",
+          name: "Nisarg Rathod",
+          img: NisargRathod,
+          designation: "Member",
+          ig: "https://www.instagram.com/nisarg._.21/",
+          lin: "https://in.linkedin.com/in/nisarg-rathod-257265293",
+          git: "https://github.com/Nisarg2106"
         },
 
         {
@@ -60,15 +70,15 @@ function Magazine() {
           lin: "https://in.linkedin.com/in/anuvab-mandal-366a83307",
           git: "https://github.com/mandal0204"
         },
-        {
-          email: "sse230021007@iiti.ac.in",
-          name: "Dhriti Jha",
-          img: Dhritijha,
-          designation: "Member",
-          ig: "",
-          lin: "https://www.linkedin.com/in/dhriti-jha-75bbb9285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          git: ""
-        },
+        // {
+        //   email: "sse230021007@iiti.ac.in",
+        //   name: "Dhriti Jha",
+        //   img: Dhritijha,
+        //   designation: "Member",
+        //   ig: "",
+        //   lin: "https://www.linkedin.com/in/dhriti-jha-75bbb9285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        //   git: ""
+        // },
         {
           email: "me230003073@iiti.ac.in",
           name: "Tanuj Sidhwa",

@@ -15,7 +15,7 @@ import {
   Ayushkhadkekar,
   Dakshchandel,
   Deveshsharma,
-  Dhritijha,
+//   Dhritijha,
   Hrishikesh,
   Jaisurya,
   Kaveri,
@@ -27,7 +27,7 @@ import {
   Sibasishbarik,
   Siddharthvezzu,
   Sidhwatanuj,
-  Srinivasgopi,
+//   Srinivasgopi,
   Triptianand,
   Vandannagori,
   Vedansh,
@@ -56,13 +56,13 @@ const People = ({ index }) => {
           img: Aarushisingh,
           designation: "Opportunities Team",
         },
-        {
-          email: "ee220002068@iiti.ac.in",
-          name: "Rakshit Jangid",
-          phno: "+91 8849463566",
-          img: Dhritijha,
-          designation: "International Relations Team",
-        },
+        // {
+        //   email: "ee220002068@iiti.ac.in",
+        //   name: "Rakshit Jangid",
+        //   phno: "+91 8849463566",
+        //   img: Dhritijha,
+        //   designation: "International Relations Team",
+        // },
       ],
       [
         {

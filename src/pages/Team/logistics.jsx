@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin ,FaGithub } from "react-icons/fa";
 import {
   Aman,
   Apoorvsingh,
-  // ArnavDeshpande,
+  ArnavDeshpande,
   Kaveri,
   DodiyaYashKumar,
   Siddharthvezzu,
@@ -31,11 +31,11 @@ function Logistics() {
         {
           email: "",
           name: "Arnav Deshpande",
-          img: unknownboys,
+          img: ArnavDeshpande,
           designation: "Logistics Lead",
-          ig: "",
-          lin: "",
-          git: ""
+          ig: "https://www.instagram.com/arnav_iamadp?igsh=OG1zbnF3ZTN3djY2",
+          lin: "https://www.linkedin.com/in/arnav-deshpande-26a792290/",
+          git: "https://github.com/Arnavdsp"
         },
         {
           email: "che230008001@iiti.ac.in",
