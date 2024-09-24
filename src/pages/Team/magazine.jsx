@@ -35,7 +35,7 @@ function Magazine() {
         },
         {
           email: "msc2303121008@iiti.ac.in",
-          name: "Nisarg Rathod",
+          name: "Rathod Nisarg Bipinbhai",
           img: NisargRathod,
           designation: "Member",
           ig: "https://www.instagram.com/nisarg._.21/",
