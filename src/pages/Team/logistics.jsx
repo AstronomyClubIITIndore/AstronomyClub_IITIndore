@@ -29,7 +29,7 @@ function Logistics() {
     members: [
       [
         {
-          email: "",
+          email: "sse230021005@iiti.ac.in",
           name: "Arnav Deshpande",
           img: ArnavDeshpande,
           designation: "Logistics Lead",
@@ -52,8 +52,8 @@ function Logistics() {
           img:   Aman,
           designation: "Member",
           ig: "https://www.instagram.com/aman_choudhary2385?igsh=dDlpMzE2bHJwZWd0",
-          lin: "",
-          git: ""
+          lin: "https://www.linkedin.com/in/aman-undefined-b55239293/",
+          git: "https://github.com/Aman-hub15"
         },
         {
           email: "sse230021004@iiti.ac.in",
@@ -71,8 +71,8 @@ function Logistics() {
           img: Kaveri,
           designation: "Member",
           ig: "https://www.instagram.com/itz_kaveriiii?igsh=MWFuM2Q0OXJ6bWJvbA==",
-          lin: "",
-          git: ""
+          lin: "https://www.linkedin.com/in/kaveri-neeli-a97373289/",
+          git: "https://github.com/Kaveri1950"
         },
         {
           email: "sse230021008@iiti.ac.in",
