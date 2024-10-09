@@ -42,7 +42,7 @@ function Merch() {
           designation: "Merch",
           ig: "https://www.instagram.com/pratik_x077?igsh=MThncDRydG5jOWsyZA==",
           lin: "https://www.linkedin.com/in/prem-pratik-240872283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          git: ""
+          git: "https://github.com/PratSpace07"
         },
         // {
         //   email: "sameer.kumar@iiti.ac.in",
