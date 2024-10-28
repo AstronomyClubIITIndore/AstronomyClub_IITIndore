@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import React from 'react';
-import hundredhrs from '../assets/hero/hundredhrs.jpg'; 
+import hundredhrs from '../assets/hero/hundredhrs.jpg';
 
 function BasicExample() {
   return (

@@ -12,28 +12,35 @@ import Alumni from './alumni';
 import Clubhead from './clubhead';
 
 function Team() {
-
   return (
     <>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossOrigin="anonymous"/>
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossOrigin="anonymous"
+      />
       <div className="Team-encloser1">
         <Navbar />
       </div>
-			<div className="Team-encloser2"> <div className="Team-heading">	Our Team </div></div>
-			<center className='TeamName'>Club Head</center>
-			<Clubhead />
-			<center className='TeamName'>Logistics + KV + Stargazing</center>
-			<Logistics />
-			 <center className='TeamName'>Web Development Team</center>
-			<Webdev />
-			<center className='TeamName'>Magazine</center>
-			<Magazine />
-			<center className='TeamName'>Merch</center>
-			<Merch />
-			<center className='TeamName'>Outreach & social media</center>
-			<Outreach />
-			<center className='TeamName'>Alumni</center>
-			<Alumni />
+      <div className="Team-encloser2">
+        {' '}
+        <div className="Team-heading"> Our Team </div>
+      </div>
+      <center className="TeamName">Club Head</center>
+      <Clubhead />
+      <center className="TeamName">Logistics + KV + Stargazing</center>
+      <Logistics />
+      <center className="TeamName">Web Development Team</center>
+      <Webdev />
+      <center className="TeamName">Magazine</center>
+      <Magazine />
+      <center className="TeamName">Merch</center>
+      <Merch />
+      <center className="TeamName">Outreach & social media</center>
+      <Outreach />
+      <center className="TeamName">Alumni</center>
+      <Alumni />
       <Footer />
     </>
   );
