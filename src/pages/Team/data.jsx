@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import Team from "./Team";  // Adjust the import path as needed
+import React, { useState } from 'react';
+import Team from './Team'; // Adjust the import path as needed
 import {
   Aaravgupta,
   Aarushisingh,
@@ -15,7 +15,7 @@ import {
   Ayushkhadkekar,
   Dakshchandel,
   Deveshsharma,
-//   Dhritijha,
+  //   Dhritijha,
   Hrishikesh,
   Jaisurya,
   Kaveri,
@@ -27,12 +27,12 @@ import {
   Sibasishbarik,
   Siddharthvezzu,
   Sidhwatanuj,
-//   Srinivasgopi,
+  //   Srinivasgopi,
   Triptianand,
   Vandannagori,
   Vedansh,
-  Vishrutpandya
-} from "../../assets/team";  // Adjust the import path as needed
+  Vishrutpandya,
+} from '../../assets/team'; // Adjust the import path as needed
 
 const People = ({ index }) => {
   const [committee2] = useState({
@@ -40,21 +40,21 @@ const People = ({ index }) => {
     members: [
       [
         {
-          email: "me210003018@iiti.ac.in",
-          name: "Aaravgupta",
-          phno: "+91 7263931615",
+          email: 'me210003018@iiti.ac.in',
+          name: 'Aaravgupta',
+          phno: '+91 7263931615',
           img: Aaravgupta,
-          designation: "Head",
+          designation: 'Head',
         },
       ],
       [
         {
-          heading: "Coordinators",
-          email: "ce220004004@iiti.ac.in",
-          name: "Agrim Jain",
-          phno: "+91 9811085456",
+          heading: 'Coordinators',
+          email: 'ce220004004@iiti.ac.in',
+          name: 'Agrim Jain',
+          phno: '+91 9811085456',
           img: Aarushisingh,
-          designation: "Opportunities Team",
+          designation: 'Opportunities Team',
         },
         // {
         //   email: "ee220002068@iiti.ac.in",
@@ -66,18 +66,18 @@ const People = ({ index }) => {
       ],
       [
         {
-          email: "msc2203171012@iiti.ac.in",
-          name: "Mohini",
-          phno: "+91 9667033160",
+          email: 'msc2203171012@iiti.ac.in',
+          name: 'Mohini',
+          phno: '+91 9667033160',
           img: Anshulgaharwal,
-          designation: "Outreach Team",
+          designation: 'Outreach Team',
         },
         {
-          email: "ce210004041@iiti.ac.in",
-          name: "Sai Krishna Akash Ramineni",
-          phno: "+91 6301133526",
+          email: 'ce210004041@iiti.ac.in',
+          name: 'Sai Krishna Akash Ramineni',
+          phno: '+91 6301133526',
           img: Kumaranmol,
-          designation: "Web Team",
+          designation: 'Web Team',
         },
       ],
     ],
@@ -85,9 +85,10 @@ const People = ({ index }) => {
 
   return (
     <div className="container-fluid">
-      {index === 1 && committee2.members.flat().map((person, idx) => (
-        <Team key={idx} person={person} />
-      ))}
+      {index === 1 &&
+        committee2.members
+          .flat()
+          .map((person, idx) => <Team key={idx} person={person} />)}
     </div>
   );
 };

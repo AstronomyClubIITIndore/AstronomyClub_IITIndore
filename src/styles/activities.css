@@ -1,44 +1,38 @@
-body
-{
-    /* background: linear-gradient(to right,rgb(2, 2, 29),black 60%); */
+body {
+  /* background: linear-gradient(to right,rgb(2, 2, 29),black 60%); */
 }
-.Activities-encloser1
-{
-    width: auto;
-    height: auto;
-    /* border: 2px solid black; */
-    box-sizing: border-box;
-    background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1");
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(rgb(2, 21, 48) ,rgb(0, 0, 0));
-    padding-bottom: 2%;
+.Activities-encloser1 {
+  width: auto;
+  height: auto;
+  /* border: 2px solid black; */
+  box-sizing: border-box;
+  background-image: url('https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1');
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(rgb(2, 21, 48), rgb(0, 0, 0));
+  padding-bottom: 2%;
 }
-.Activities-heading
-{
-    color: white;
-    /* border: 2px solid white; */
-    font-size: 80px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* background: linear-gradient(to right,black 50%,blue); */
-    text-align: center;
-    
+.Activities-heading {
+  color: white;
+  /* border: 2px solid white; */
+  font-size: 80px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  /* background: linear-gradient(to right,black 50%,blue); */
+  text-align: center;
 }
-@media only screen and (max-width:1200px)
-{
-    .Activities-heading
-    {
-        font-size: max(5vw,30px);
-    }
+@media only screen and (max-width: 1200px) {
+  .Activities-heading {
+    font-size: max(5vw, 30px);
+  }
 }
-.Activities-encloser2
-{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid rgb(192, 17, 17); */
-    box-sizing: border-box;
+.Activities-encloser2 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rgb(192, 17, 17); */
+  box-sizing: border-box;
 }

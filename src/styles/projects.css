@@ -17,8 +17,8 @@
   color: white;
   /* border: 2px solid white; */
   font-size: max(5vw, 30px);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   /* background: linear-gradient(to right,black 50%,blue); */
   text-align: center;
 }
@@ -43,7 +43,7 @@
   font-size: 1rem;
 }
 .Photo {
-  background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1");
+  background-image: url('https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,12 +138,18 @@
 @keyframes glow {
   0% {
     /* opacity: 1; */
-    box-shadow: 0 0 5px rgba(0, 255, 255, 0.7), 0 0 5px rgba(0, 255, 255, 0.7),
-      0 0 5px rgba(0, 255, 255, 0.7), 0 0 5px rgba(0, 255, 255, 0.7);
+    box-shadow:
+      0 0 5px rgba(0, 255, 255, 0.7),
+      0 0 5px rgba(0, 255, 255, 0.7),
+      0 0 5px rgba(0, 255, 255, 0.7),
+      0 0 5px rgba(0, 255, 255, 0.7);
   }
   100% {
     /* opacity: 0.5; */
-    box-shadow: 0 0 10px rgba(0, 89, 255, 0.7), 0 0 10px rgba(8, 0, 255, 0.7),
-      0 0 10px rgba(0, 4, 255, 0.7), 0 0 10px rgba(0, 8, 255, 0.7);
+    box-shadow:
+      0 0 10px rgba(0, 89, 255, 0.7),
+      0 0 10px rgba(8, 0, 255, 0.7),
+      0 0 10px rgba(0, 4, 255, 0.7),
+      0 0 10px rgba(0, 8, 255, 0.7);
   }
 }

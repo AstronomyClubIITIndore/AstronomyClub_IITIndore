@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import styles from "./Navbar.module.css";
-import Astronomylogo from "../../assets/hero/newlogo.png";
-import iitilogo from "../../assets/hero/iitindorelogo-removebg-preview.png";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import { Link } from "react-router-dom";
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import React, { useState } from 'react';
+import styles from './Navbar.module.css';
+import Astronomylogo from '../../assets/hero/newlogo.png';
+import iitilogo from '../../assets/hero/iitindorelogo-removebg-preview.png';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Link } from 'react-router-dom';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
   const [isResponsive, setIsResponsive] = useState(false);
@@ -22,25 +22,23 @@ function Navbar() {
               src={Astronomylogo}
               alt=""
               style={{
-                margin: "1vh 2vw",
-                
-                height: "14vh",
-                backgroundColor: "transparent",
+                margin: '1vh 2vw',
+
+                height: '14vh',
+                backgroundColor: 'transparent',
               }}
             />
           </a>
         </div>
-        <div style={{ margin: "1vh 2vw",textAlign:"center" }}>
+        <div style={{ margin: '1vh 2vw', textAlign: 'center' }}>
           <a
             href="/"
             style={{
-              fontSize: "min(8vw,60px)",
+              fontSize: 'min(8vw,60px)',
               // fontWeight: "bold",
-              color: "white",
-              textDecoration: "none",
-              fontFamily:"Trebuchet MS",
-             
-              
+              color: 'white',
+              textDecoration: 'none',
+              fontFamily: 'Trebuchet MS',
             }}
           >
             The Astronomy Club IIT Indore
@@ -52,13 +50,11 @@ function Navbar() {
               src={iitilogo}
               alt=""
               style={{
-                margin: "1vh 2vw",
+                margin: '1vh 2vw',
                 // width: "65px",
-                height: "12vh",
-                backgroundColor: "transparent",
+                height: '12vh',
+                backgroundColor: 'transparent',
                 // borderRadius:"50%",
-                
-              
               }}
             />
           </a>
@@ -75,43 +71,43 @@ function Navbar() {
           <Link to="/">
             <i
               className="fa-solid fa-house"
-              style={{ marginRight: "0.5rem" }}
+              style={{ marginRight: '0.5rem' }}
             ></i>
             HOME
           </Link>
           <Link to="/aboutus">
             <i
               className="fa-solid fa-circle-info"
-              style={{ marginRight: "0.5rem" }}
+              style={{ marginRight: '0.5rem' }}
             ></i>
             ABOUT US
           </Link>
           <Link to="/projects">
             <i
               className="fa-solid fa-hammer"
-              style={{ marginRight: "0.5rem" }}
+              style={{ marginRight: '0.5rem' }}
             ></i>
             PROJECTS
           </Link>
           <Link to="/news">
             <i
               className="fa-solid fa-newspaper"
-              style={{ marginRight: "0.5rem" }}
+              style={{ marginRight: '0.5rem' }}
             ></i>
             NEWS
           </Link>
           <Link to="/activities">
             <i
               className="fa-solid fa-globe"
-              style={{ marginRight: "0.5rem" }}
+              style={{ marginRight: '0.5rem' }}
             ></i>
             ACTIVITIES
           </Link>
           <Link to="/team">
-            {" "}
+            {' '}
             <i
               className="fa-solid fa-people-group"
-              style={{ marginRight: "0.5rem" }}
+              style={{ marginRight: '0.5rem' }}
             ></i>
             TEAM
           </Link>
