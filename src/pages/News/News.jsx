@@ -27,24 +27,19 @@ function News() {
           <div className="col">
             <div className="card">
               <img
-                src="https://cdn.mos.cms.futurecdn.net/h5SYb8f7HwaY8boAgYy43H-1200-80.png.webp"
+                src="https://cdn.esahubble.org/archives/images/newsfeature/heic2415a.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
-                <a href="https://www.astronomy.com/science/meteorite-strikes-create-the-moons-atmosphere/">
+                <a href="https://esahubble.org/news/heic2415/">
                   <h5 className="card-title">
-                    Meteorite Impacts and the Moon's Atmosphere
+                  Hubble sees aftermath of galaxy’s scrape with Milky Way
                   </h5>
                 </a>
 
                 <p className="card-text">
-                  Recent studies reveal that meteorite impacts significantly
-                  affect the Moon's thin atmosphere. These impacts release water
-                  and other molecules from the lunar surface, temporarily
-                  boosting the atmosphere's density. This discovery helps
-                  scientists understand lunar processes and the potential for
-                  future lunar exploration.
+                The Large Magellanic Cloud (LMC), a dwarf galaxy, endured a major collision with the Milky Way. This collision caused the LMC to lose a significant portion of its gas halo. Despite this, the galaxy retained enough gas to continue its star formation process. Hubble Space Telescope observations revealed an intriguing detail about the LMC’s halo – it is about 10 times smaller than the halos of similar galaxies, which indicates its remarkable resilience. This discovery challenges previous expectations and adds to the understanding of galaxy interactions and survivability.
                 </p>
               </div>
             </div>
@@ -52,22 +47,19 @@ function News() {
           <div className="col">
             <div className="card">
               <img
-                src="https://scitechdaily.com/images/Galactic-Merger-Art-Concept.jpg"
+                src="https://cdn.esahubble.org/archives/images/newsfeature/heic2411a.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
-                <a href="https://phys.org/news/2024-07-webb-captures-staggering-quasar-galaxy.html">
+                <a href="https://esahubble.org/news/heic2411/">
                   <h5 className="card-title">
-                    James Webb Space Telescope Captures Quasar-Galaxy Merger
+                  Hubble finds that a black hole beam promotes stellar eruptions
                   </h5>
                 </a>
 
                 <p className="card-text">
-                  The James Webb Space Telescope has provided detailed images of
-                  a quasar-galaxy merger in the distant universe. This discovery
-                  allows astronomers to study the chemical evolution of galaxies
-                  and the enrichment of metals in these early structures.
+                Astronomers using the Hubble Space Telescope have uncovered an unexpected phenomenon involving a supermassive black hole. This black hole has been observed emitting a jet that appears to trigger star eruptions, specifically novae, in nearby star systems. While the exact cause remains a mystery, the observed data is undeniable. In fact, scientists have detected twice as many novae in the regions near the jet compared to other areas within the same galaxy. This finding is a significant challenge to current astronomical models and underscores the need for further research into the intricate relationship between black holes and the galaxies they reside in.
                 </p>
               </div>
             </div>
@@ -75,24 +67,20 @@ function News() {
           <div className="col">
             <div className="card">
               <img
-                src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202407/MIT-Eccentric-Jupiter-01-press_0.jpg?itok=Onn-qCS7"
+                src="https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:0,ch:0,q:80,w:1200/7iprtehXQW4fHYuypUguDo.webp"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
-                <a href="https://news.mit.edu/2024/astronomers-spot-highly-eccentric-planet-becoming-hot-jupiter-0717#:~:text=The%20new%20planet%2C%20which%20astronomers,in%20a%20narrow%2C%20elliptical%20circuit.">
+                <a href="https://www.space.com/the-universe/mars/ancient-volcanic-ash-on-mars-could-offer-new-clues-in-search-for-extraterrestrial-life">
                   {' '}
                   <h5 className="card-title">
-                    Discovery of a Highly Eccentric Planet
+                  Ancient volcanic ash on Mars could offer new clues in search for extraterrestrial life
                   </h5>
                 </a>
 
                 <p className="card-text">
-                  MIT astronomers have identified a highly eccentric
-                  Jupiter-sized planet that is on its way to becoming a hot
-                  Jupiter. The planet's dramatic changes in starlight and
-                  extreme seasonal variations offer valuable insights into
-                  planetary orbital dynamics and high eccentricity migration.
+                Scientists have recently made an intriguing discovery on Mars – dark, volcanic rocks that may provide valuable insights into the planet’s ancient past. These rocks, likely volcanic ash from eruptions that occurred long ago, were found in impact craters scattered across the Martian surface. What makes these findings even more significant is the potential role these rocks played in preserving life forms. These layers of volcanic ash could have shielded mineral-rich rocks beneath them, which might hold evidence of ancient microbial life that once thrived on the Red Planet.
                 </p>
               </div>
             </div>
@@ -100,23 +88,19 @@ function News() {
           <div className="col">
             <div className="card">
               <img
-                src="https://i.guim.co.uk/img/media/6d934faea51ca7ac987310462b9d76653749d5b9/0_126_3500_2099/master/3500.jpg?width=1300&dpr=2&s=none"
+                src="https://cdn.mos.cms.futurecdn.net/tBWWp6neU46De5uYEsLx4E.gif"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
-                <a href="https://www.space.com/james-webb-space-telescope-two-oldest-most-distant-galaxies">
+                <a href="https://www.space.com/the-universe/sun/sun-erupts-with-powerful-x1-2-solar-flare-causes-radio-blackouts-photo">
                   <h5 className="card-title">
-                    Most Distant Galaxy Found Using JWST
+                  Sun erupts with powerful X1.2 solar flare, causes radio blackouts
                   </h5>
                 </a>
 
                 <p className="card-text">
-                  Researchers using the James Webb Space Telescope have
-                  discovered the most distant galaxy ever observed, dating back
-                  to when the universe was just 300 million years old. This
-                  finding provides a unique opportunity to study early galaxy
-                  formation and the rapid, intense processes involved.
+                A significant solar event occurred recently when an X-class solar flare, categorized as X.12, erupted from sunspot region AR 3947. This flare caused a radio blackout across a wide area, including parts of the Southern Atlantic, Africa, and eastern South America. The flare’s intensity was rated as “Strong” on the NOAA Space Weather Scale, although no coronal mass ejections (CMEs) were produced. The absence of CMEs means that Earth was not directly impacted, but this event serves as a reminder of the Sun’s immense power and its potential effects on our planet’s space weather.
                 </p>
               </div>
             </div>
@@ -124,21 +108,17 @@ function News() {
           <div className="col">
             <div className="card">
               <img
-                src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202405/MIT-Ancient-Quasar-01-press_0.jpg?itok=xYb2Zv4Y"
+                src="https://www.nasa.gov/wp-content/uploads/2023/11/uhz1.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
-                <a href="https://physics.mit.edu/news/mit-astronomers-observe-elusive-stellar-light-surrounding-ancient-quasars/">
-                  <h5 className="card-title">Light from Ancient Quasars</h5>
+                <a href="https://www.nasa.gov/universe/nasa-telescopes-discover-record-breaking-black-hole/">
+                  <h5 className="card-title">NASA Telescopes Discover Record-Breaking Black Hole</h5>
                 </a>
 
                 <p className="card-text">
-                  MIT astronomers have successfully separated the light from the
-                  central black hole of ancient quasars from that of their host
-                  galaxies using the JWST. This achievement allows for a better
-                  understanding of the mass ratio between black holes and their
-                  host galaxies in the early universe.
+                A groundbreaking discovery has been made with the help of NASA’s Chandra and James Webb space telescopes. Astronomers have observed the most distant black hole ever detected in X-rays, located in a galaxy known as UHZ1. This black hole is believed to be between 10 and 100 million solar masses, which is similar in mass to its host galaxy. Such a large mass suggests that the black hole might have formed directly from a massive cloud of gas, offering significant evidence for the existence of “Outsize Black Holes.” 
                 </p>
               </div>
             </div>
@@ -146,20 +126,17 @@ function News() {
           <div className="col">
             <div className="card">
               <img
-                src="https://scitechdaily.com/images/Pulsar-Artists-Concept.jpg"
+                src="https://img.jagranjosh.com/images/2025/January/312025/meteor-shower.webp"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
-                <a href="https://www.anu.edu.au/news/all-news/breakthrough-in-understanding-mysterious-gamma-ray-signal">
-                  <h5 className="card-title">Gamma Ray Breakthrough</h5>
+                <a href="https://www.jagranjosh.com/general-knowledge/when-and-where-to-watch-quadrantids-meteor-shower-1735877689-1">
+                  <h5 className="card-title">Quadrantid Meteor Shower 2025</h5>
                 </a>
 
                 <p className="card-text">
-                  Recent advancements in gamma-ray astronomy have propelled the
-                  study of pulsars into a new era. These discoveries are
-                  enhancing our understanding of high-energy astrophysical
-                  processes and the extreme environments around neutron stars.
+                The Quadrantids Meteor Shower, one of the most spectacular celestial events of the year, is set to reach its peak on January 4, 2025. The meteor shower will provide stargazers with an incredible opportunity to witness up to 120 meteors per hour. For the best viewing experience, experts recommend finding a location that is far from city lights. It’s also important to allow your eyes to adjust to the darkness, and for optimal viewing, lying flat on your back with your feet pointing northeast will provide the best vantage point for observing this stunning display of cosmic activity.
                 </p>
               </div>
             </div>
@@ -167,23 +144,19 @@ function News() {
           <div className="col">
             <div className="card">
               <img
-                src="https://www.nasa.gov/wp-content/uploads/2023/03/wasp-18.jpg"
+                src="https://astrobiology.nasa.gov/uploads/filer_public_thumbnails/filer_public/f7/4e/f74e242e-9d8e-413e-8322-13264d88e077/spherex.jpg__1240x510_q85_crop_subject_location-620%2C254_subsampling-2.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
-                <a href="https://www.bbc.com/news/science-environment-49648746">
+                <a href="https://www.jpl.nasa.gov/missions/spherex/">
                   <h5 className="card-title">
-                    First-Ever Water Detected on a Rocky Exoplanet
+                  SPHEREx
                   </h5>
                 </a>
 
                 <p className="card-text">
-                  Using the JWST, astronomers have detected water vapor in the
-                  atmosphere of a rocky exoplanet 'WASP 18b' for the first time.
-                  This discovery is a significant step in the search for
-                  potentially habitable planets outside our solar system and
-                  understanding atmospheric compositions.
+                The SPHEREx mission, which stands for Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer, will soon embark on an ambitious mission to map the universe. This mission will conduct the first all-sky spectral survey, gathering valuable data on more than 450 million galaxies and over 100 million stars within the Milky Way. The planned two-year mission aims to explore the origins of the universe, providing insights into cosmic evolution, the conditions that led to the formation of galaxies, and the mysteries of the early universe’s reionization era.
                 </p>
               </div>
             </div>
@@ -203,11 +176,7 @@ function News() {
                 </a>
 
                 <p className="card-text">
-                  New experiments with the cosmic microwave background are
-                  probing the connections between cosmic inflation and particle
-                  physics. These studies aim to reveal the fundamental
-                  mechanisms that shaped the early universe and led to its rapid
-                  expansion.
+                In the field of cosmic research, new experiments are being conducted to investigate the connections between cosmic inflation and particle physics. These experiments aim to uncover the fundamental mechanisms that led to the rapid expansion of the universe in its early stages. By probing the cosmic microwave background, scientists hope to better understand how the universe grew from its tiny, dense beginnings into the vast expanse we observe today. This research is crucial to refining theories of the early universe and could yield groundbreaking revelations about the forces that shaped its evolution.
                 </p>
               </div>
             </div>
