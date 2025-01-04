@@ -41,6 +41,13 @@ body {
 }
 .card {
   animation: glow 2s infinite alternate;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 @keyframes glow {
   0% {

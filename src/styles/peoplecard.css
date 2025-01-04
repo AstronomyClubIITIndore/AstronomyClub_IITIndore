@@ -69,6 +69,11 @@
   margin-bottom: 0.3rem;
 }
 
+.personCard:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgb(91, 228, 214);
+}
+
 .upper {
   text-transform: uppercase;
 }
