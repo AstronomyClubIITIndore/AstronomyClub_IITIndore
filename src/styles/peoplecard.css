@@ -28,6 +28,8 @@
   padding: 0px !important;
   height: 200px;
   background: #c3dbf2;
+  scale: 1;
+  transition: scale 800ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .TeamName {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -70,7 +72,7 @@
 }
 
 .personCard:hover{
-    transform: scale(1.1);
+    scale: 1.05;
     box-shadow: 0 4px 20px rgb(91, 228, 214);
 }
 

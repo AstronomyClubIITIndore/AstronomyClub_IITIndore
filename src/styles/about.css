@@ -88,4 +88,5 @@ body {
 .messagetitle {
   background-color: aquamarine;
   /* border: 2px solid black; */
+  margin-top: 0;
 }

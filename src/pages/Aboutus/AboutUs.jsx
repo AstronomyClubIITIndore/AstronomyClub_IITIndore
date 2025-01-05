@@ -70,7 +70,9 @@ function AboutUs() {
             className="card-header"
             id="header1"
             style={{
-              marginTop: '10px',
+              marginTop: '0px',
+              paddingTop: '10px',
+              paddingBottom: '10px',
               border: 'none',
             }}
           >
