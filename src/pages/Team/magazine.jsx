@@ -29,7 +29,7 @@ function Magazine() {
           git: 'https://github.com/ezdevesh',
         },
         {
-          email: 'msc2303121008@iiti.ac.in',
+          email: 'sse230021014@iiti.ac.in',
           name: 'Rathod Nisarg Bipinbhai',
           img: NisargRathod,
           designation: 'Member',
