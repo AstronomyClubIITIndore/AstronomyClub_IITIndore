@@ -13,7 +13,6 @@ import Atharvaporwal from './AtharvaPorwal.jpg';
 import Ayushkhadkekar from './AyushKhadkekar.jpg';
 import Dakshchandel from './DakshChandel.jpg';
 import Deveshsharma from './DeveshSharma.jpg';
-// import Dhritijha from './DhritiJha.jpg';
 import Hrishikesh from './Hrishikesh.jpeg';
 import Jaisurya from './JaiSurya.png';
 import Kaveri from './Kaveri.jpg';
@@ -26,7 +25,6 @@ import Princekumar from './PrinceKumar.jpg';
 import Sibasishbarik from './SibasishBarik.jpg';
 import Siddharthvezzu from './SiddharthVezzu.png';
 import Sidhwatanuj from './SidhwaTanuj.jpg';
-// import Srinivasgopi from './SrinivasGopi.jpg';
 import Triptianand from './TriptiAnand.png';
 import Vandannagori from './VandanNagori.jpg';
 import Vedansh from './Vedansh.jpg';
@@ -55,7 +53,6 @@ export {
   Ayushkhadkekar,
   Dakshchandel,
   Deveshsharma,
-  // Dhritijha,
   Hrishikesh,
   Jaisurya,
   Kaveri,
@@ -67,7 +64,6 @@ export {
   Sibasishbarik,
   Siddharthvezzu,
   Sidhwatanuj,
-  // Srinivasgopi,
   Triptianand,
   Vandannagori,
   Vedansh,

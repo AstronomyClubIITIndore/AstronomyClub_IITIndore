@@ -3,6 +3,9 @@ import Navbar from '../../components/Navbar/Navbar';
 import '../../styles/about.css';
 import Footer from '../../components/Footer/Footer';
 import { keshav } from '../../assets/team';
+import HeadImg from '../../assets/team/ParulAboutUs.jpeg';
+
+let headImgStyle = { marginTop:0};
 
 function AboutUs() {
   return (
@@ -85,8 +88,13 @@ function AboutUs() {
         </div>
       </div>
       <div className="message">
-        <div className="photo">
-          <img className="image1" src={keshav} alt="..." />
+        <div className="photo" style={headImgStyle}>
+          <img
+            className="image1"
+            src={HeadImg}
+            alt="..."
+            style={headImgStyle}
+          />
         </div>
         <div className="content">
           Welcome to the Astronomy Club of IIT Indore! <br />
@@ -114,7 +122,7 @@ function AboutUs() {
           <br />
           Warm regards,
           <br />
-          Keshav Agrawal
+          Parul Pahurkar
           <br />
           Club Head
           <br />
