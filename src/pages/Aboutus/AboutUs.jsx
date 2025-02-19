@@ -34,20 +34,24 @@ function AboutUs() {
           <div className="card-body" id="body1">
             {/* <h5 className="card-title">Special title treatment</h5> */}
             <p className="card-text">
-              The Astronomy Club at IIT Indore is a dynamic community passionate
-              about exploring the cosmos. Established to nurture interest in
-              astronomy and space science, the club offers a platform for both
-              beginners and enthusiasts to engage with celestial phenomena.
-              Through stargazing sessions, workshops, guest lectures, and
-              hands-on projects, members gain practical knowledge and
-              observational skills. The club provides access to telescopes and
-              other astronomical equipment, allowing participants to observe
-              constellations, planets, and deep-sky objects. Collaborations with
-              experts and organizations enrich the learning experience, offering
-              unique insights and research opportunities. Whether you're an
-              aspiring astronomer or simply curious about the universe, the
-              Astronomy Club at IIT Indore invites you to join and discover the
-              wonders of the night sky..
+              Welcome to the Astronomy Club, a hub for curiosity, discovery, and
+              a shared love for the cosmos! Our goal is to connect students,
+              faculty, and space enthusiasts in a journey to uncover the
+              mysteries of the universe. Whether you’re a seasoned observer or
+              just starting to gaze at the stars, this is the place for you. We
+              offer interesting activities and engage the visitors about the
+              wonders of space. Such activities range from stargazing nights
+              with amazing views to dynamic discussions of space exploration and
+              cosmic phenomena- there's something exciting always on the horizon
+              here. Curious about the big questions—like the nature of black
+              holes, the chances of life beyond Earth, or how the universe
+              began? This club is your platform to explore, share insights, and
+              grow alongside a community of like-minded enthusiasts. Every idea
+              sparks a new perspective, and every perspective fuels our
+              collective curiosity. Let's journey through the stars together,
+              new wonders, and each other to think beyond the horizons. Your
+              passion and imagination make this club so extraordinary. Keep
+              looking up and dreaming big!
             </p>
           </div>
         </div>
