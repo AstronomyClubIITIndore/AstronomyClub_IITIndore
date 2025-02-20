@@ -7,6 +7,7 @@ import {
   Atharvaporwal,
   Abhishekap,
   Vandannagori,
+  Sarangthakare,
 } from '../../assets/team';
 
 function Webdev() {
@@ -60,6 +61,61 @@ function Webdev() {
           lin: 'https://www.linkedin.com/in/vandan-nagori-140a132b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
           git: 'https://github.com/Vandan1423',
         },
+        // {
+        //   email: 'sse240021008@iiti.ac.in',
+        //   name: 'Kartikey Raghav ',
+        //   img: 'https://drive.google.com/open?id=1jLvPhKPmdOz93NdMHRuGKKgLI7cfEiAS',
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/normallysmoooth?igsh=MXI1NGU4a3k2aGFzZw==',
+        //   lin: 'https://in.linkedin.com/in/kartikey-raghav-ab852a260',
+        //   git: 'https://github.com/KartikeyRaghav'
+        // },
+        // {
+        //   email: 'msc2403121001@iiti.ac.in',
+        //   name: 'Aditya Prakash Sharma ',
+        //   img: 'https://drive.google.com/open?id=1RQjk6PSsZYkJfhNmdPHy8hUxH-IJhRRs',
+        //   designation: 'Member',
+        //   ig: '',
+        //   lin: 'https://www.linkedin.com/in/aditya-prakash-sharma-055a522b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        //   git: ''
+        // },
+        // {
+        //   email: 'msc2403121007@iiti.ac.in',
+        //   name: 'Manpreet Singh',
+        //   img: 'https://drive.google.com/open?id=16w8PnDvPgkwBk7iDEyPjwIZ9cvSwwK32',
+        //   designation: 'Member',
+        //   ig: '',
+        //   lin: 'https://www.linkedin.com/in/manpreet-singh-57395722a/',
+        //   git: ''
+        // },
+        // {
+        //   email: 'sse240021005@iiti.ac.in',
+        //   name: 'chakrapani',
+        //   img: 'https://drive.google.com/open?id=1efgFmgkUQIqvkKFztCBQyhpiCXcrCOHM',
+        //   designation: 'Member',
+        //   ig: '',
+        //   lin: '',
+        //   git: ''
+        // },
+        // {
+        //   email: 'mt2402121005@iiti.ac.in',
+        //   name: 'Ritvik Genugula',
+        //   img: 'https://drive.google.com/open?id=1Mrstpq9SrAQYAvLJeaYX-f5C17-CdioW',
+        //   designation: 'Member',
+        //   ig: '',
+        //   lin: '',
+        //   git: ''
+        // },
+        {
+          email: 'cse240001065@iiti.ac.in',
+          name: 'Sarang Thakare',
+          img: Sarangthakare,
+          designation: 'Member',
+          ig: '-',
+          lin: 'https://in.linkedin.com/in/sarang-thakare-101866229',
+          git: 'https://github.com/SarangVT'
+        },
+        
       ],
     ],
   });

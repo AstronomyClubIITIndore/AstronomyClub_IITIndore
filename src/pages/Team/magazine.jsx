@@ -13,6 +13,7 @@ import {
   Aryanbhake,
   Parthkothari,
   NisargRathod,
+  Eknoorkaur,
 } from '../../assets/team';
 
 function Magazine() {
@@ -102,24 +103,52 @@ function Magazine() {
         //   git: ""
         // },
 
+        // {
+        //   email: 'msc2303121005@iiti.ac.in',
+        //   name: 'Aryan Bhake',
+        //   img: Aryanbhake,
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/aryan.bhake01?igsh=a3hjM3o3NmxoNnQx',
+        //   lin: 'https://www.linkedin.com/in/aryan-bhake-234a912bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        //   git: '',
+        // },
+        // {
+        //   email: 'msc2303121012@iiti.ac.in',
+        //   name: 'Parth Kothari',
+        //   img: Parthkothari,
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/pathlab_963?igsh=dGFiY2w5cDdkb211',
+        //   lin: 'https://www.linkedin.com/in/parth-kothari-694b9a26a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        //   git: '',
+        // },
+        // {
+        //   email: 'sse240021006@iiti.ac.in',
+        //   name: 'Gujjala Mohit Sasi Chandra',
+        //   img: 'https://drive.google.com/open?id=1Myq3E0SbwLhbCpwqOmxHerp0Ctsvw0-t',
+        //   designation: 'Member',
+        //   ig: '',
+        //   lin: '',
+        //   git: ''
+        // },
+        // {
+        //   email: 'sse240021011@iiti.ac.in',
+        //   name: 'Patel Devki ',
+        //   img: 'https://drive.google.com/open?id=19jVgnA0aG5ASmMmbxlhMi849i83T_xRS',
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/devki.164?igsh=MWM1bXZsd2hibXlvYQ==',
+        //   lin: 'https://www.linkedin.com/in/devki-patel-777b54323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        //   git: 'https://github.com/Devki164'
+        // },
         {
-          email: 'msc2303121005@iiti.ac.in',
-          name: 'Aryan Bhake',
-          img: Aryanbhake,
+          email: 'mt2402121003@iiti.ac.in',
+          name: 'Eknoor Kaur ',
+          img: Eknoorkaur,
           designation: 'Member',
-          ig: 'https://www.instagram.com/aryan.bhake01?igsh=a3hjM3o3NmxoNnQx',
-          lin: 'https://www.linkedin.com/in/aryan-bhake-234a912bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-          git: '',
+          ig: 'https://www.instagram.com/photography_martian.ek?igsh=cHpzdjg5YnVpcmll&utm_source=qr',
+          lin: 'https://www.linkedin.com/in/eknoor-kaur-aa79631bb',
+          git: ''
         },
-        {
-          email: 'msc2303121012@iiti.ac.in',
-          name: 'Parth Kothari',
-          img: Parthkothari,
-          designation: 'Member',
-          ig: 'https://www.instagram.com/pathlab_963?igsh=dGFiY2w5cDdkb211',
-          lin: 'https://www.linkedin.com/in/parth-kothari-694b9a26a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-          git: '',
-        },
+
       ],
     ],
   });

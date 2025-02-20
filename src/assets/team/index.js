@@ -35,6 +35,13 @@ import pranjal from './pranjal.jpeg';
 import DodiyaYashKumar from './DodiyaYashKumar.jpeg';
 import unknowngirls from './unknowngirls.png';
 import unknownboys from './unknownboys.jpeg';
+import Sarangthakare from "./Sarangthakare.jpg";
+import Kartikkambhampati from "./KartikKambhampati.jpg";
+import Srujanapatil from "./SrujanaPatil.png";
+import Subhanshukumar from "./SubhanshuKumar.jpeg";
+import Pritamhore from "./PritamHore.jpg";
+import Shreyaggarwal from "./ShreyAggarwal.jpg";
+import Eknoorkaur from "./EknoorKaur.jpg";
 
 export {
   Aaravgupta,
@@ -72,6 +79,13 @@ export {
   Dikshitsuthar,
   pranjal,
   DodiyaYashKumar,
+  Sarangthakare,
+  Kartikkambhampati,
+  Srujanapatil,
+  Subhanshukumar,
+  Pritamhore,
+  Shreyaggarwal,
+  Eknoorkaur,
   unknowngirls,
   unknownboys,
 };

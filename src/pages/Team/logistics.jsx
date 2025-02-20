@@ -17,6 +17,8 @@ import {
   Aaravgupta,
   unknownboys,
   unknowngirls,
+  Kartikkambhampati,
+  Shreyaggarwal,
 } from '../../assets/team';
 
 function Logistics() {
@@ -96,24 +98,133 @@ function Logistics() {
         //   lin: "https://www.linkedin.com/in/gopi-charan-nelavalli-62278728a",
         //   git: "https://github.com/Chandu-08"
         // },
+        // {
+        //   email: 'ee230002019@iiti.ac.in',
+        //   name: 'Daksh Chandel',
+        //   img: Dakshchandel,
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/dc05_buriburi?igsh=MTRmdTZuZjBuYTFhZg==',
+        //   lin: 'https://www.linkedin.com/in/daksh-chandel-6a0812298/',
+        //   git: 'https://github.com/DC-005',
+        // },
+        // {
+        //   email: 'msc2303121015@iiti.ac.in',
+        //   name: 'Vishrut Pandya',
+        //   img: Vishrutpandya,
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/following_light_30?igsh=cW1iZGx3azRldjll',
+        //   lin: '',
+        //   git: '',
+        // },
+        // {
+        //   email: 'ms2404121004@iiti.ac.in',
+        //   name: 'Ankur Sinha',
+        //   img: 'https://drive.google.com/open?id=1QYqI7GGCkqya8_cYslb__ZEPVW5L2aQw',
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/ankuranium/',
+        //   lin: 'www.linkedin.com/in/ankur-sinha-096a85149',
+        //   git: ''
+        // },
+        // {
+        //   email: 'sse240021010@iiti.ac.in',
+        //   name: 'Manish kumawat',
+        //   img: 'https://drive.google.com/file/d/1W4NaQJKqOboDurf9vA9dwLSx2fABzl2M/view?usp=drivesdk',
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/manishkumawat0412?igsh=aDE0OGplamZ0MmRj',
+        //   lin: 'https://www.linkedin.com/in/manish-kumawat-b7139631a',
+        //   git: 'https://github.com/manishkumawat14128'
+        // },
+        // {
+        //     email: 'ms2404121003@iiti.ac.in',
+        //     name: 'RIYA',
+        //     img: 'https://drive.google.com/open?id=1nCjGka6fBKNHidSzvUMVfE_mCQX6EH3Q',
+        //     designation: 'Member',
+        //     ig: '',
+        //     lin: '',
+        //     git: ''
+        // },
+        // {
+        //   email: 'ms2404121002@iiti.ac.in',
+        //   name: 'Riddhi Srivastava ',
+        //   img: 'https://drive.google.com/open?id=1blpVSM-uU9G4CZkT-ikDRIyCyVGzHoUU',
+        //   designation: 'Member',
+        //   ig: '@riddhi.srivastava._',
+        //   lin: 'https://www.linkedin.com/in/riddhi-srivastava-0a9130218/',
+        //   git: 'https://github.com/Riddhisri2704'
+        // },
+        // {
+        //   email: 'ms2404121001@iiti.ac.in',
+        //   name: 'Yash Raj',
+        //   img: 'https://drive.google.com/open?id=1DDtBjXh-GgTgUo9Y5rpegxWBKTX90xDa',
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/curious_explorer_/',
+        //   lin: 'https://www.linkedin.com/in/yash-raj-0a4a321b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        //   git: ''
+        // },
         {
-          email: 'ee230002019@iiti.ac.in',
-          name: 'Daksh Chandel',
-          img: Dakshchandel,
+          email: 'msc2403121006@iiti.ac.in',
+          name: 'Kartik Kambhampati ',
+          img: Kartikkambhampati,
           designation: 'Member',
-          ig: 'https://www.instagram.com/dc05_buriburi?igsh=MTRmdTZuZjBuYTFhZg==',
-          lin: 'https://www.linkedin.com/in/daksh-chandel-6a0812298/',
-          git: 'https://github.com/DC-005',
+          ig: '',
+          lin: 'https://www.linkedin.com/in/kartik-kambhampati?trk=contact-info',
+          git: ''
         },
         {
-          email: 'msc2303121015@iiti.ac.in',
-          name: 'Vishrut Pandya',
-          img: Vishrutpandya,
+          email: 'sse240021017@iiti.ac.in',
+          name: 'Shrey Aggarwal ',
+          img: Shreyaggarwal,
           designation: 'Member',
-          ig: 'https://www.instagram.com/following_light_30?igsh=cW1iZGx3azRldjll',
-          lin: '',
-          git: '',
+          ig: 'https://www.instagram.com/shrey_aggarwal021?igsh=M2QwNTQxcmdmdG44',
+          lin: 'https://www.linkedin.com/in/shrey-aggarwal-92154732a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+          git: 'https://github.com/Shrey-codin',
         },
+        //  {
+        //   email: 'msc2403121009@iiti.ac.in',
+        //   name: 'Nityananda Padhi',
+        //   img: 'https://drive.google.com/open?id=1F9Ge8MMWe7-q_NFZ-pS1jmncR7dV0jBE',
+        //   designation: 'Member',
+        //   ig: '',
+        //   lin: '',
+        //   git: ''
+        // },
+        //  {
+        //   email: 'msc2403121012@iiti.ac.in',
+        //   name: 'Sangeetha A',
+        //   img: 'https://drive.google.com/open?id=1KGwTDw1sRhaCiC5tA-bSZKYy-KhMZq8l',
+        //   designation: 'Member',
+        //   ig: '',
+        //   lin: '',
+        //   git: ''
+        // },
+        // {
+        //   email: 'sse240021003@iiti.ac.in',
+        //   name: 'Apurva Dinesh Chipte ',
+        //   img: 'https://drive.google.com/open?id=12II6QLcrAzxTYQ5ZS3_MTu9nQuG6wlAS',
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/a_purva.1011?igsh=MWZiMGtjNml1cGg0dw==',
+        //   lin: 'https://www.linkedin.com/in/apurva-chipte-a1645531b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        //   git: 'https://github.com/ApurvaChipte'
+        // },
+        // {
+        //   email: 'sse240021001@iiti.ac.in',
+        //   name: 'A.sathvik',
+        //   img: 'https://drive.google.com/open?id=1CD1oe11Br64bXpMqGIBP0ToXzZ0wzNpB',
+        //   designation: 'Member',
+        //   ig: '',
+        //   lin: '',
+        //   git: ''
+        // },
+        // {
+        //   email: 'sse240021002@iiti.ac.in',
+        //   name: 'Ananya Shubhangi Sinha ',
+        //   img: 'https://drive.google.com/open?id=1M2dhZl2bYeRZF1sKRufwbQqp_ndcu4JP',
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/ananyassinha?igsh=c2FyNnZwYWF6cnl1',
+        //   lin: 'linkedin.com/in/ananya-sinha-1721ba327',
+        //   git: 'https://github.com/ananya04052006'
+        // },
+          
         // {
         //   email: "atharv.mirashi@iiti.ac.in",
         //   name: "Atharv Mirashi",

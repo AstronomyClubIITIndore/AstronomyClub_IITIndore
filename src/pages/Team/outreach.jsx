@@ -11,6 +11,8 @@ import {
   Anshulgaharwal,
   Anushka,
   Princekumar,
+  Srujanapatil,
+  Subhanshukumar,
   Triptianand,
   Vedansh,
   pranjal,
@@ -86,6 +88,44 @@ function Outreach() {
           lin: 'https://www.linkedin.com/in/anushka-agarwal-967223289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
           git: 'https://github.com/anushkaagarwal21',
         },
+        //new members...
+        { 
+          email: 'sse240021018@iiti.ac.in',
+          name: 'Srujana Patil',
+          img: Srujanapatil,
+          designation: 'Member',
+          ig: 'https://www.instagram.com/srujanapatil8/',
+          lin: 'https://www.linkedin.com/in/srujana-patil-620677324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+          git: ''
+        },
+        {
+          email: 'sse240021019@iiti.ac.in',
+          name: 'Subhanshu Kumar ',
+          img: Subhanshukumar,
+          designation: 'Member',
+          ig: 'https://www.instagram.com/subhansh_1u493?igsh=YmlwNXlibnhkdWVu',
+          lin: 'https://www.linkedin.com/in/subhanshu-kumar-82a28432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+          git: 'https://github.com/Subhansh-1-u'
+        },
+        // {
+        //   email: 'sse240021015@iiti.ac.in',
+        //   name: 'Sakshya Singh Kasera ',
+        //   img: 'https://drive.google.com/open?id=1kYhkxzwG-LaJDAyzwault1sj99a9xEGc',
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/sakshya_ssk?igsh=ZXpsNzNxd3l0ZzVl',
+        //   lin: 'https://www.linkedin.com/in/sakshya-singh-kasera-33a21531a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+        //   git: 'https://github.com/Sakshya2504'
+        // },
+        // {
+        //   email: 'sse240021012@iiti.ac.in',
+        //   name: 'Pritish Dutta',
+        //   img: 'https://drive.google.com/open?id=1oyNQ2phbz_FPOk51vAHbBnxFXH53D9FT',
+        //   designation: 'Member',
+        //   ig: 'https://www.instagram.com/pritisshhhhh_?igsh=OGQ5ZDc2ODk2ZA==',
+        //   lin: 'https://www.linkedin.com/in/pritish-dutta-854a082b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+        //   git: 'https://github.com/iprtdh'
+        // },
+
         // {
         //   email: "msc2303121003@iiti.ac.in",
         //   name: "Annie Chandrika",
