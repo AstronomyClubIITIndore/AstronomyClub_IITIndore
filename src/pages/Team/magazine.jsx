@@ -38,16 +38,6 @@ function Magazine() {
           lin: 'https://in.linkedin.com/in/nisarg-rathod-257265293',
           git: 'https://github.com/Nisarg2106',
         },
-
-        {
-          email: 'sse230021011@iiti.ac.in',
-          name: 'Parul Pahurkar',
-          img: Parulpahurkar,
-          designation: 'Club Co-head',
-          ig: 'https://www.instagram.com/ppahurkar21/',
-          lin: 'https://www.linkedin.com/in/parul-pahurkar-9b2b2a2b9/',
-          git: '',
-        },
         {
           email: 'sse230021002@iiti.ac.in',
           name: 'Anjanayae Chaurasia',
@@ -61,7 +51,7 @@ function Magazine() {
           email: 'sse230021003@iiti.ac.in',
           name: 'Anuvab Mandal',
           img: Anuvab,
-          designation: 'Member + Merch Treasurer',
+          designation: 'Club Co-Head + Merch Treasurer',
           ig: 'https://www.instagram.com/itzz.mandal?igsh=dml3YzBrcGN0NnRn',
           lin: 'https://in.linkedin.com/in/anuvab-mandal-366a83307',
           git: 'https://github.com/mandal0204',
