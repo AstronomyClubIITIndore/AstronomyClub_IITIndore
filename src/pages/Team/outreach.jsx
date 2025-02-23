@@ -8,7 +8,6 @@ import {
 } from 'react-icons/fa';
 import {
   Aarushisingh,
-  Anshulgaharwal,
   Anushka,
   Princekumar,
   Srujanapatil,
@@ -61,15 +60,6 @@ function Outreach() {
           git: 'https://github.com/Princekumarofficial',
         },
         {
-          email: 'me230003007@iiti.ac.in',
-          name: 'Anshul Gaharwal',
-          img: Anshulgaharwal,
-          designation: 'Member',
-          ig: '',
-          lin: 'https://www.linkedin.com/in/anshul-gaharwal-73ba62288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-          git: '',
-        },
-        {
           email: 'cse230001078@iiti.ac.in',
           name: 'Tripti Anand',
           img: Triptianand,
@@ -89,14 +79,14 @@ function Outreach() {
           git: 'https://github.com/anushkaagarwal21',
         },
         //new members...
-        { 
+        {
           email: 'sse240021018@iiti.ac.in',
           name: 'Srujana Patil',
           img: Srujanapatil,
           designation: 'Member',
           ig: 'https://www.instagram.com/srujanapatil8/',
           lin: 'https://www.linkedin.com/in/srujana-patil-620677324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-          git: ''
+          git: '',
         },
         {
           email: 'sse240021019@iiti.ac.in',
@@ -105,7 +95,7 @@ function Outreach() {
           designation: 'Member',
           ig: 'https://www.instagram.com/subhansh_1u493?igsh=YmlwNXlibnhkdWVu',
           lin: 'https://www.linkedin.com/in/subhanshu-kumar-82a28432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-          git: 'https://github.com/Subhansh-1-u'
+          git: 'https://github.com/Subhansh-1-u',
         },
         // {
         //   email: 'sse240021015@iiti.ac.in',

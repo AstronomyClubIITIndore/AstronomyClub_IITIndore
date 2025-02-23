@@ -3,6 +3,9 @@ import Navbar from '../../components/Navbar/Navbar';
 import '../../styles/projects.css';
 import PCard from './ProjectsCard';
 import Footer from '../../components/Footer/Footer';
+import CubeSat from '../Projects/Images/cubeSat.jpeg';
+import CanSat from '../Projects/Images/canSat.jpeg';
+import windTunnel from '../Projects/Images/windTunnel.jpeg';
 
 function Projects() {
   const projectsInfo = [
@@ -10,31 +13,31 @@ function Projects() {
       pName: 'Remote Weather Station with drone adaptability',
       img: 'https://www.mdpi.com/drones/drones-07-00340/article_deploy/html/images/drones-07-00340-g001.png',
       pInfo:
-        'The Remote Weather Station project focuses on developing payloads for drones that can measure temperature, pressure, humidity, and gas composition. The payloads will be integrated with communication systems to transmit collected data in real-time. The project involves designing and testing these payloads to ensure accurate and reliable data transmission. The goal is to enhance weather monitoring capabilities and provide valuable information for various applications, including environmental studies and disaster management.',
+        'The development of advanced payload systems for drones, designed to facilitate real-time communication and seamless data transmission of recorded information, is a crucial aspect of modern drone technology. These payloads are equipped with a variety of sensors and instruments capable of capturing and transmitting environmental parameters such as temperature, atmospheric pressure, humidity levels, and gas composition. By integrating these sophisticated measurement capabilities with efficient data transmission mechanisms, drones can be deployed for diverse applications, including environmental monitoring, industrial inspections, and scientific research. The combination of real-time data collection and communication enhances situational awareness, allowing for improved decision-making in various operational scenarios.',
       // pLink:
       //   "https://github.com/AstronomyClubIITIndore/AstronomyClub_IITIndore/tree/main",
     },
     {
-      pName: 'Ion Plasma Thruster',
-      img: 'https://i.ytimg.com/vi/mnCmvxt2jn8/maxresdefault.jpg',
+      pName: 'CubeSat',
+      img: CubeSat,
       pInfo:
-        "The development of a functional Ionic Plasma Thruster prototype involves designing and constructing a device that generates thrust through the acceleration of ionized gases. This project includes creating a robust ionization chamber, optimizing the ion acceleration process, and testing the thruster's performance in various conditions. The prototype aims to demonstrate efficient propulsion and precise control, contributing to advancements in space exploration technology. Key challenges include achieving high thrust-to-power ratios and ensuring operational stability in a vacuum environment.",
+        'The development of a launch-ready CubeSat involves designing and engineering a compact yet robust satellite capable of withstanding the standard noise and vibration tests required for space deployment. This process includes ensuring structural integrity, thermal regulation, and power efficiency to endure the harsh conditions of launch and orbit. The CubeSat will be equipped with a reliable communication system for seamless data transmission and reception, enabling real-time interaction with ground stations. Additionally, it will feature a suite of advanced sensors designed to conduct scientific observations, environmental monitoring, or mission-specific data collection. By integrating these critical components, the CubeSat will be prepared for deployment in space, contributing to research, technology demonstration, or operational missions in low Earth orbit and beyond.',
       // pLink:
       //   "https://github.com/AstronomyClubIITIndore/AstronomyClub_IITIndore/tree/main",
     },
     {
-      pName: 'Magneto-torquer for ADCS system',
-      img: 'https://www.ece3sat.com/images/ADCS_subsystem.png',
+      pName: 'CanSat',
+      img: CanSat,
       pInfo:
-        "The Magneto-Torquer for ADCS system project involves developing an Attitude Determination and Control System (ADCS) for a CubeSat, integrating magneto-torquers, reaction wheels, and gyroscopes. The magneto-torquers use Earth's magnetic field to control the satellite's orientation, while reaction wheels provide precise angular momentum control. Gyroscopes measure the satellite's rotational rates to support accurate attitude determination. The project focuses on optimizing these components to ensure stable and reliable satellite positioning and control for various space missions.",
+        'A CanSat is a compact, can-sized satellite designed to replicate real satellite operations by collecting, processing, and transmitting data during its descent. It serves as an educational and experimental platform, allowing students and engineers to gain hands-on experience in aerospace engineering, electronics, and telemetry systems. Equipped with various sensors, a CanSat can measure parameters such as temperature, pressure, altitude, and acceleration, providing valuable insights into atmospheric conditions. The collected data is transmitted to a ground station in real-time, enabling analysis and mission evaluation. By simulating key aspects of satellite development, deployment, and operation, CanSats play a crucial role in fostering innovation and practical learning in the field of space technology.',
       // pLink:
       //   "https://github.com/AstronomyClubIITIndore/AstronomyClub_IITIndore/tree/main",
     },
     {
-      pName: 'Data processing and analysis',
-      img: 'https://img.freepik.com/premium-vector/digital-concept-big-data-is-fluttering-data-collection-data-processing-data-analysis-beautiful-futuristic-background_36402-1420.jpg',
+      pName: 'Wind Tunnel',
+      img: windTunnel,
       pInfo:
-        'The Data Processing and Analysis project involves creating programs and algorithms to handle and interpret data from diverse sources like payloads, observatories, telescopes, radars, and receivers. This includes developing efficient methods for data integration, cleaning, and transformation to ensure accuracy and consistency. The goal is to extract meaningful insights and generate actionable information from complex datasets. The project also focuses on optimizing processing speeds and ensuring scalability to handle large volumes of data effectively.',
+        'A wind tunnel is a sophisticated testing apparatus that simulates airflow over objects, such as aircraft, automobiles, or even architectural models, to study their aerodynamic properties. By precisely controlling the wind speed and direction within a confined environment, it allows engineers to analyze key factors such as lift, drag, and stability. This controlled setting enables a detailed examination of how air interacts with surfaces, helping to optimize designs for enhanced performance, safety, and efficiency. Overall, wind tunnel testing is an indispensable tool in the field of aerodynamics, providing critical insights that drive innovations in transportation, engineering, and various related industries.',
       // pLink:
       //   "https://github.com/AstronomyClubIITIndore/AstronomyClub_IITIndore/tree/main",
     },

@@ -39,8 +39,8 @@ function Team() {
       <Merch />
       <center className="TeamName">Outreach & social media</center>
       <Outreach />
-      <center className="TeamName">Alumni</center>
-      <Alumni />
+      {/* <center className="TeamName">Alumni</center>
+      <Alumni /> */}
       <Footer />
     </>
   );

@@ -10,6 +10,7 @@ function PCard(project) {
             className="Photo"
             style={{
               backgroundImage: `url(${project.img})`,
+              backgroundSize: 'contain',
             }}
           ></div>
           <div className="Info">

@@ -1,23 +1,10 @@
 import React, { useState } from 'react';
 import '../../styles/peoplecard.css';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
-import { Jaisurya } from '../../assets/team';
 
 function Alumni() {
   const [committee] = useState({
-    members: [
-      [
-        {
-          email: 'me200003034@iiti.ac.in',
-          name: 'Jai Surya Katla',
-          img: Jaisurya,
-          designation: 'Club Head (2022-23)',
-          ig: 'https://www.instagram.com/neutrin.o_0',
-          lin: 'https://www.linkedin.com/in/jaisurya-katla',
-          git: 'https://github.com/Jaisxixi',
-        },
-      ],
-    ],
+    members: [[]],
   });
 
   const renderPersonCard = (person, idx) => (

@@ -2,29 +2,30 @@ import React, { useState } from 'react';
 import '../../styles/peoplecard.css';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { Parulpahurkar } from '../../assets/team';
+import { Anuvab } from '../../assets/team';
 
 function Clubhead() {
   const [committee] = useState({
     members: [
       [
-        // {
-        //   email: 'mscphd2301121015@iiti.ac.in',
-        //   name: 'Keshav Agrawal',
-        //   img: keshav,
-        //   designation: 'Club-Head ',
-        //   ig: 'instagram.com/jovian_explorer/',
-        //   lin: 'https://www.linkedin.com/in/dev-aggarwal/',
-        //   git: 'https://github.com/jovian-explorer',
-        // },
         {
-                  email: 'sse230021011@iiti.ac.in',
-                  name: 'Parul Pahurkar',
-                  img: Parulpahurkar,
-                  designation: 'Club Head',
-                  ig: 'https://www.instagram.com/ppahurkar21/',
-                  lin: 'https://www.linkedin.com/in/parul-pahurkar-9b2b2a2b9/',
-                  git: '',
-                },
+          email: 'sse230021011@iiti.ac.in',
+          name: 'Parul Pahurkar',
+          img: Parulpahurkar,
+          designation: 'Club Head',
+          ig: 'https://www.instagram.com/ppahurkar21/',
+          lin: 'https://www.linkedin.com/in/parul-pahurkar-9b2b2a2b9/',
+          git: '',
+        },
+        {
+          email: 'sse230021003@iiti.ac.in',
+          name: 'Anuvab Mandal',
+          img: Anuvab,
+          designation: 'Club Co-Head + Merch Treasurer',
+          ig: 'https://www.instagram.com/itzz.mandal?igsh=dml3YzBrcGN0NnRn',
+          lin: 'https://in.linkedin.com/in/anuvab-mandal-366a83307',
+          git: 'https://github.com/mandal0204',
+        },
       ],
     ],
   });
