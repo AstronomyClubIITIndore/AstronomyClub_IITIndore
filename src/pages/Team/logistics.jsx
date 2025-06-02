@@ -16,6 +16,12 @@ import {
   ChinmayeeKulkarni,
   TanishkaDoiphode,
   YalavarthiUdayasri,
+  ArjavYadav,
+  ParekhOmNirav,
+  ManishKumar,
+  KeshavSinghal,
+  SamarthDhanuka,
+  Sathvik
 } from '../../assets/team';
 
 function Logistics() {
@@ -135,7 +141,7 @@ function Logistics() {
         {
           email: 'ce240004032@iiti.ac.in',
           name: 'Manish Kumar',
-          img: null,
+          img: ManishKumar,
           designation: 'Member',
           ig: null,
           lin: 'https://www.linkedin.com/in/manish-kumar-7bb887321/',
@@ -144,7 +150,7 @@ function Logistics() {
         {
           email: 'cse230001039@iiti.ac.in',
           name: 'Keshav Singhal',
-          img: null,
+          img: KeshavSinghal,
           designation: 'Member',
           ig: 'https://www.instagram.com/keshav_singhal04?igsh=dHFwOTE1OGlmcWh3',
           lin: 'https://www.linkedin.com/in/keshav-singhal-5814b42b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -153,7 +159,7 @@ function Logistics() {
         {
           email: 'sse240021001@iiti.ac.in',
           name: 'Sathvik',
-          img: null,
+          img: Sathvik,
           designation: 'Member',
           ig: 'https://www.instagram.com/sathvik__0557?igsh=MWs4eHVpMzNmZmFkNA==',
           lin: 'https://www.linkedin.com/in/amadala-sathvik-333b7a323',
@@ -162,12 +168,30 @@ function Logistics() {
         {
           email: 'che240008011@iiti.ac.in',
           name: 'Samarth Dhanuka',
-          img: null,
+          img: SamarthDhanuka,
           designation: 'Member',
           ig: 'chat_with_sam_07',
           lin: 'https://www.linkedin.com/in/samarth-dhanuka-3927ab316?utm_source=share&utm_campaign=share_via&utm_content=profile',
           git: 'https://github.com/TheRealSam-21',
         },
+        {
+          email: "ce240004007@iiti.ac.in",
+          name : 'Arjav Yadav ',
+          img : ArjavYadav,
+          designation: "Member",
+          ig : "",
+          lin : "",
+          git : "", 
+        },
+        {
+          email: "ee240002049@iiti.ac.inee240002049@iiti.ac.in",
+          name : 'Parekh Om Nirav',
+          img : ParekhOmNirav,
+          designation: "Member",
+          ig : "https://www.instagram.com/_om_parekh_18/profilecard/?igsh=MXEyNjBpdW0xam9jMg==",
+          lin : "https://www.linkedin.com/in/om-parekh-52123a219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          git : "https://github.com/Om1903", 
+        }
       ],
     ],
   });

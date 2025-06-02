@@ -20,6 +20,8 @@ import {
   PaawniGulati,
   Reethika,
   SasidharChintala,
+  SakshyaSinghKasera,
+  BhumikaKumari
 } from '../../assets/team';
 
 function Outreach() {
@@ -130,7 +132,7 @@ function Outreach() {
         {
           email: 'sse240021015@iiti.ac.in',
           name: 'Sakshya Singh Kasera',
-          img: null,
+          img: SakshyaSinghKasera,
           designation: 'Member',
           ig: 'https://www.instagram.com/sakshya_ssk?igsh=ZXpsNzNxd3l0ZzVl',
           lin: 'https://www.linkedin.com/in/sakshya-singh-kasera-33a21531a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -139,7 +141,7 @@ function Outreach() {
         {
           email: 'ep240051006@iiti.ac.in',
           name: 'Bhumika Kumari',
-          img: null,
+          img: BhumikaKumari,
           designation: 'Member',
           ig: 'https://www.instagram.com/bhumi_675_ka?igsh=dHNlMms5dWczOWx6',
           lin: 'https://www.linkedin.com/in/bhumika-kumari957b832a',

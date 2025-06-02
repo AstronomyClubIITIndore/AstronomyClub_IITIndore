@@ -45,6 +45,14 @@ import TanishkaDoiphode from './TanishkaDoiphode.jpg';
 import YalavarthiUdayasri from './YalavarthiUdayasri.jpg';
 import Reethika from './Reethika.jpg';
 import SasidharChintala from './SasidharChintala.jpg';
+import ArjavYadav from './ArjavYadav.jpg';
+import ParekhOmNirav from './ParekhOmNirav.jpg';
+import ManishKumar from './ManishKumar.jpg';
+import KeshavSinghal from './KeshavSinghal.jpg';
+import SamarthDhanuka from './SamarthDhanuka.jpg';
+import Sathvik from './Sathvik.jpg';
+import SakshyaSinghKasera from './SakshyaSinghKasera.png';
+import BhumikaKumari from "./BhumikaKumari.jpg"
 
 export {
   Aaravgupta,
@@ -94,4 +102,12 @@ export {
   YalavarthiUdayasri,
   Reethika,
   SasidharChintala,
+  ArjavYadav,
+  ParekhOmNirav,
+  ManishKumar,
+  KeshavSinghal,
+  SamarthDhanuka,
+  Sathvik,
+  SakshyaSinghKasera,
+  BhumikaKumari,
 };
