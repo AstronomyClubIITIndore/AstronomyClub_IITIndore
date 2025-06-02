@@ -126,7 +126,25 @@ function Outreach() {
           ig: 'https://www.instagram.com/sayit._sd_?igsh=dmZ4bHRraWs4MTZ6',
           lin: 'https://www.linkedin.com/in/sasidhar-chintala-2bb3b5321/',
           git: 'https://github.com/sasidhar-chintala',
-        }
+        },
+        {
+          email: 'sse240021015@iiti.ac.in',
+          name: 'Sakshya Singh Kasera',
+          img: null,
+          designation: 'Member',
+          ig: 'https://www.instagram.com/sakshya_ssk?igsh=ZXpsNzNxd3l0ZzVl',
+          lin: 'https://www.linkedin.com/in/sakshya-singh-kasera-33a21531a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+          git: 'https://github.com/Sakshya2504',
+        },
+        {
+          email: 'ep240051006@iiti.ac.in',
+          name: 'Bhumika Kumari',
+          img: null,
+          designation: 'Member',
+          ig: 'https://www.instagram.com/bhumi_675_ka?igsh=dHNlMms5dWczOWx6',
+          lin: 'https://www.linkedin.com/in/bhumika-kumari957b832a',
+          git: 'https://github.com/bhumi21005',
+        },
         // {
         //   email: 'sse240021015@iiti.ac.in',
         //   name: 'Sakshya Singh Kasera ',
