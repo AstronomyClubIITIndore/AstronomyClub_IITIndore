@@ -17,6 +17,9 @@ import {
   pranjal,
   unknownboys,
   unknowngirls,
+  PaawniGulati,
+  Reethika,
+  SasidharChintala,
 } from '../../assets/team';
 
 function Outreach() {
@@ -97,6 +100,33 @@ function Outreach() {
           lin: 'https://www.linkedin.com/in/subhanshu-kumar-82a28432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
           git: 'https://github.com/Subhansh-1-u',
         },
+        {
+          email: 'me240003052@iiti.ac.in',
+          name: 'Paawni Gulati ',
+          img: PaawniGulati,
+          designation: 'Member',
+          ig: 'https://www.instagram.com/paawnigulati',
+          lin: 'https://www.linkedin.com/in/paawni-gulati-65200331a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+          git: 'https://github.com/paani137',
+        },
+        {
+          email: 'me230003085@iiti.ac.in',
+          name: 'Reethika',
+          img: Reethika,
+          designation: 'Member',
+          ig: '',
+          lin: '',
+          git: '',
+        },
+        {
+          email: 'me240003023@iiti.ac.in',
+          name: 'Sasidhar Chintala',
+          img: SasidharChintala,
+          designation: 'Member',
+          ig: 'https://www.instagram.com/sayit._sd_?igsh=dmZ4bHRraWs4MTZ6',
+          lin: 'https://www.linkedin.com/in/sasidhar-chintala-2bb3b5321/',
+          git: 'https://github.com/sasidhar-chintala',
+        }
         // {
         //   email: 'sse240021015@iiti.ac.in',
         //   name: 'Sakshya Singh Kasera ',

@@ -38,6 +38,13 @@ import Subhanshukumar from './SubhanshuKumar.jpeg';
 import Pritamhore from './PritamHore.jpg';
 import Shreyaggarwal from './ShreyAggarwal.jpg';
 import Eknoorkaur from './EknoorKaur.jpg';
+import SaiAdithyaMannepalli from './SaiAdithyaMannepalli.jpeg';
+import ChinmayeeKulkarni from './ChinmayeeKulkarni.jpeg';
+import PaawniGulati from './PaawniGulati.jpg';
+import TanishkaDoiphode from './TanishkaDoiphode.jpg';
+import YalavarthiUdayasri from './YalavarthiUdayasri.jpg';
+import Reethika from './Reethika.jpg';
+import SasidharChintala from './SasidharChintala.jpg';
 
 export {
   Aaravgupta,
@@ -80,4 +87,11 @@ export {
   Eknoorkaur,
   unknowngirls,
   unknownboys,
+  SaiAdithyaMannepalli,
+  ChinmayeeKulkarni,
+  PaawniGulati,
+  TanishkaDoiphode,
+  YalavarthiUdayasri,
+  Reethika,
+  SasidharChintala,
 };
