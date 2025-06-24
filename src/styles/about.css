@@ -52,7 +52,7 @@ body {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #ffffffcc;
-  text-align: center;
+  text-align: justify;
 }
 
 /* CLUB HEAD SECTION */
@@ -102,7 +102,7 @@ body {
   font-size: 1.05rem;
   line-height: 1.8;
   color: #ffffffcc;
-  text-align: center;
+  text-align: justify;
   margin-right: 1rem;
 }
 
@@ -118,6 +118,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .vision-text{
+    text-align: center;
+  }
   .club-head-content {
     flex-direction: column;
     align-items: center;
@@ -127,6 +130,7 @@ body {
   .club-head-message {
     padding-top: 1rem;
     margin-right: 0;
+    text-align: center;
   }
 
   .club-head-photo {
@@ -147,6 +151,9 @@ body {
 }
 
 @media (max-width: 480px) {
+  .vision-text{
+    text-align: center;
+  }
   .club-heading {
     font-size: 1.8rem;
   }
@@ -163,5 +170,6 @@ body {
   .vision-text,
   .club-head-message {
     font-size: 0.95rem;
+    text-align: center;
   }
 }
