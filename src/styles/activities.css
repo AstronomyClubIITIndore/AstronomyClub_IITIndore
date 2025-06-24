@@ -1,38 +1,131 @@
+/* Updated styles to fix dim look and improve layout */
+
 body {
-  /* background: linear-gradient(to right,rgb(2, 2, 29),black 60%); */
-}
-.Activities-encloser1 {
-  width: auto;
-  height: auto;
-  /* border: 2px solid black; */
-  box-sizing: border-box;
-  background-image: url('https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1');
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
   background: radial-gradient(rgb(2, 21, 48), rgb(0, 0, 0));
-  padding-bottom: 2%;
-}
-.Activities-heading {
   color: white;
-  /* border: 2px solid white; */
-  font-size: 80px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  /* background: linear-gradient(to right,black 50%,blue); */
-  text-align: center;
 }
-@media only screen and (max-width: 1200px) {
-  .Activities-heading {
-    font-size: max(5vw, 30px);
+
+.activities-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.activities-hero {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+  background-image: url('https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ffff44;
+  margin-bottom: 3rem;
+}
+
+.activities-hero h1 {
+  font-size: 3rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffffaa;
+}
+
+.activities {
+  max-width: 1200px;
+  padding: 32px 16px;
+  margin: auto;
+}
+
+.activities-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem 4rem;
+}
+
+.project-card {
+  background: rgba(0, 0, 0, 0.8); /* improved contrast */
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+}
+
+.project-image {
+  flex: 1 1 300px;
+  background-size: cover;
+  background-position: center;
+  min-height: 220px;
+  max-height: 100%;
+}
+
+.project-info {
+  flex: 2;
+  padding: 2rem;
+  color: #eeeeee;
+}
+
+.project-info h2 {
+  color: #00ffff;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.project-info p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #d0d0d0;
+}
+
+@media screen and (max-width: 992px) {
+  .activities-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .project-card {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .project-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .project-info {
+    padding: 1.5rem;
   }
 }
-.Activities-encloser2 {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* border: 2px solid rgb(192, 17, 17); */
-  box-sizing: border-box;
+
+@media screen and (max-width: 576px) {
+  .activities-hero h1 {
+    font-size: 2rem;
+  }
+
+  .project-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .project-info p {
+    font-size: 0.95rem;
+  }
+
+  .project-image {
+    height: 180px;
+  }
 }

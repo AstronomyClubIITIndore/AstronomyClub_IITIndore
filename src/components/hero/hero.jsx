@@ -127,7 +127,7 @@ function Hero() {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/company/the-astronomy-club-iit-indore/mycompany/"
-                className="active:scale-105 transition-all"
+                className="active:scale-105 transition-all icon"
             
               >
                 <img src={li} className="w-8" />
@@ -135,7 +135,7 @@ function Hero() {
               <a
                 target="_blank"
                 href="https://www.instagram.com/astronomyclub_iiti/"
-                className="active:scale-105 transition-all"
+                className="active:scale-105 transition-all icon"
               >
                 <img src={insta} className="w-8" />
               </a>

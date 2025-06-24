@@ -1,92 +1,167 @@
+/* about.css */
+
 body {
-  /* background: linear-gradient(to right,rgb(2, 2, 29),black 60%); */
-}
-.encloser1 {
-  width: auto;
-  height: auto;
-  /* border: 2px solid black; */
-  box-sizing: border-box;
-  background-image: url('https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1');
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  background: radial-gradient(rgb(2, 21, 48), rgb(0, 0, 0));
-  padding-bottom: 9%;
-}
-.heading {
-  height: 100%;
-  padding-top: 5%;
-  color: white;
-  /* border: 2px solid white; */
-  font-size: 400%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  /* background: linear-gradient(to right,black 50%,blue); */
-  text-align: center;
-}
-@media only screen and (max-width: 1200px) {
-  .heading {
-    font-size: max(5vw, 30px);
-  }
-}
-.encloser2 {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* border: 2px solid rgb(192, 17, 17); */
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(rgb(2, 21, 48), black);
+  color: #ffffff;
 }
 
-#header1 {
-  font-size: 180%;
-  background: radial-gradient(rgb(11, 51, 74), rgb(1, 14, 28));
-  color: white;
+.about-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+/* HERO SECTION */
+.hero-section {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+  background-image: url('https://i0.wp.com/wallpapercave.com/wp/wp3493599.jpg?ssl=1');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #00ffff44;
+}
+
+.club-heading {
+  font-size: 3rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff88;
+}
+
+/* VISION SECTION */
+.vision-section {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ffff33;
+}
+
+.vision-title {
+  font-size: 2rem;
+  color: #00ffff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.vision-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ffffffcc;
+  text-align: center;
+}
+
+/* CLUB HEAD SECTION */
+.club-head-section {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ffff33;
+}
+
+.club-head-title {
+  font-size: 2rem;
+  color: #00ffff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.club-head-content {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
   justify-content: center;
 }
-.vision {
-  margin-top: 1%;
+
+.club-head-photo {
+  flex: 1 1 250px;
+  text-align: center;
+  margin-left: 1rem;
 }
-#body1 {
-  background: radial-gradient(rgb(8, 39, 53) 0%, rgb(0, 0, 0));
-  color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  font-size: 120%;
-}
-.message {
-  padding-top: 1%;
+
+.club-head-img {
   width: 100%;
-  height: auto;
-  /* border: 2px solid black; */
-  /* margin-top: 10px; */
-  display: flex;
+  max-width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #00ffff99;
+  transition: transform 0.3s ease;
 }
-.photo {
-  margin-top: 2%;
-  width: 20%;
-  height: 100%;
-  border: 1px solid green;
+
+.club-head-img:hover {
+  transform: scale(1.05);
 }
-.content {
-  width: 80%;
-  height: 100%;
-  background: radial-gradient(rgb(8, 39, 53) 0%, rgb(0, 0, 0));
-  color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  font-size: 120%;
-  padding-left: 1%;
+
+.club-head-message {
+  flex: 2 1 500px;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #ffffffcc;
+  text-align: center;
+  margin-right: 1rem;
 }
-.image1 {
-  width: 100%;
-  height: 100%;
-  filter: brightness(100%);
+
+@media (max-width: 1024px) {
+  .club-heading {
+    font-size: 2.5rem;
+  }
+
+  .vision-title,
+  .club-head-title {
+    font-size: 1.75rem;
+  }
 }
-.messagetitle {
-  background-color: aquamarine;
-  /* border: 2px solid black; */
-  margin-top: 0;
+
+@media (max-width: 768px) {
+  .club-head-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .club-head-message {
+    padding-top: 1rem;
+    margin-right: 0;
+  }
+
+  .club-head-photo {
+    margin-left: 0;
+  }
+
+  .vision-title,
+  .club-head-title,
+  .club-heading {
+    font-size: 2rem;
+  }
+
+  .vision-text,
+  .club-head-message {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .club-heading {
+    font-size: 1.8rem;
+  }
+
+  .vision-title,
+  .club-head-title {
+    font-size: 1.5rem;
+  }
+
+  .club-head-img {
+    max-width: 200px;
+  }
+
+  .vision-text,
+  .club-head-message {
+    font-size: 0.95rem;
+  }
 }
