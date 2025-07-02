@@ -184,7 +184,7 @@ function Logistics() {
           git : "", 
         },
         {
-          email: "ee240002049@iiti.ac.inee240002049@iiti.ac.in",
+          email: "ee240002049@iiti.ac.in",
           name : 'Parekh Om Nirav',
           img : ParekhOmNirav,
           designation: "Member",
